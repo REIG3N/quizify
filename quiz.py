@@ -12,6 +12,9 @@ class Question:
         self.reponse = reponse
 
     def afficher(self):
+        os.system("clear")
+        with open("data/title.txt", "r", encoding="utf-8") as f:
+            print(f.read())
         print(f"\n{self.intitule}")
         for i, option in enumerate(self.options, 1):
             print(f"  {i})  {option}")
