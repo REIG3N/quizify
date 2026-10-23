@@ -11,12 +11,26 @@ while not nom:
 user = User(nom)
 
 
+def choisir_theme(themes):
+    while True:
+        afficher_entete()
+        print("Choisissez un thème :")
+        for i, theme in enumerate(themes, 1):
+            print(f"{1}) {theme}")
+        saisie = input("Entrez votre reponse : ").strip()
+        if saisie.isdigit() and 1 <= int(saisie) <= len(themes):
+            return themes[int(saisie) - 1]
+
+
 def jouer():
     quiz = Quiz("data/questions.json")
-    if quiz.charger():
-        quiz.jouer()
-        quiz.resume()
-        user.ajouter_score(quiz.questions[0].theme, quiz.score)
+    if not quiz.charger():
+        return
+    theme = choisir_theme(quiz.themes())
+    quiz.filter(theme)
+    quiz.jouer()
+    quiz.resume()
+    user.ajouter_score(theme, quiz.score)
 
 
 def menu():

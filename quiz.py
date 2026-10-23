@@ -4,6 +4,7 @@ import random
 
 from utils import afficher_entete
 
+
 class Question:
     def __init__(self, id, theme, intitule, options, reponse):
         self.id = id
@@ -69,6 +70,20 @@ class Quiz:
                 self.bonnes.append(question)
             else:
                 self.mauvaises.append(question)
+
+    def themes(self):
+        liste = []
+        for question in self.questions:
+            if question.theme not in liste:
+                liste.append(question.theme)
+        return liste
+
+    def filter(self, theme):
+        filtrees = []
+        for question in self.questions:
+            if question.theme == theme:
+                filtrees.append(question)
+        self.questions = filtrees
 
     @property
     def score(self):
