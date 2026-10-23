@@ -2,6 +2,7 @@ import json
 import os
 import random
 
+from utils import afficher_entete
 
 class Question:
     def __init__(self, id, theme, intitule, options, reponse):
@@ -12,9 +13,7 @@ class Question:
         self.reponse = reponse
 
     def afficher(self):
-        os.system("clear")
-        with open("data/title.txt", "r", encoding="utf-8") as f:
-            print(f.read())
+        afficher_entete()
         print(f"\n{self.intitule}")
         for i, option in enumerate(self.options, 1):
             print(f"  {i})  {option}")
@@ -79,9 +78,7 @@ class Quiz:
         return round(len(self.bonnes) * 100 / total)
 
     def resume(self):
-        os.system("clear")
-        with open("data/title.txt", "r", encoding="utf-8") as f:
-            print(f.read())
+        afficher_entete()
         total = len(self.bonnes) + len(self.mauvaises)
         print(f"\nScore : { self.score}% ({len(self.bonnes)}/{total})")
 

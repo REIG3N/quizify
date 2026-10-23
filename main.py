@@ -4,15 +4,14 @@ import os
 
 from quiz import Quiz
 from user import User
+from utils import afficher_entete
 
 nom = input("Votre nom : ").strip()
 user = User(nom)
 
 
 def menu():
-    os.system("clear")
-    with open("data/title.txt", "r", encoding="utf-8") as f:
-        print(f.read())
+    afficher_entete()
     print("Que voulez vous faire: ")
     print("1) Jouer ")
     print("2) Quitter")
@@ -35,4 +34,4 @@ while game_running:
         quiz.resume()
         user.ajouter_score(quiz.questions[0].theme, quiz.score)
         user.afficher_resultats()
-        input("\nAppuyez sur Entru00e9e pour revenir au menu...")
+        input("\nAppuyez sur Entree pour revenir au menu...")
