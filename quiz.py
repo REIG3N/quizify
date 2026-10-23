@@ -72,7 +72,13 @@ class Quiz:
         return round(len(self.bonnes) * 100 / total)
 
     def resume(self):
-        print(
-            f"\nScore: {self.score}% ({len(self.bonnes)}/{len(self.bonnes) + len(self.mauvaises)})")
+        total = len(self.bonnes) + len(self.mauvaises)
+        print(f"\nScore : { self.score}% ({len(self.bonnes)}/{total})")
+
+        print(f"\nReponses correctes ({len(self.bonnes)}) :")
+        for q in self.bonnes:
+            print(f" u2713 {q.intitule} -> {q.reponse}")
+
+        print(f"\nRu00e9ponses incorrectes ({len(self.mauvaises)}) :")
         for q in self.mauvaises:
-            print(f" x {q.intitule} -> {q.reponse}")
+            print(f"  u2717 {q.intitule} -> {q.reponse}")
