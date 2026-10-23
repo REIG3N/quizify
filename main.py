@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import sys
-import os
 
 from quiz import Quiz
 from user import User
@@ -10,28 +9,33 @@ nom = input("Votre nom : ").strip()
 user = User(nom)
 
 
-def menu():
-    afficher_entete()
-    print("Que voulez vous faire: ")
-    print("1) Jouer ")
-    print("2) Quitter")
-    prompt = input("Entrez votre reponse : ")
-    if prompt == "2":
-        sys.exit("Arret du programme")
-    if prompt == "1":
-        print("C'est parti")
-    else:
-        print("Veuillez entrer un input valide")
-        menu()
-
-
-game_running = True
-while game_running:
-    menu()
+def jouer():
     quiz = Quiz("data/questions.json")
     if quiz.charger():
         quiz.jouer()
         quiz.resume()
         user.ajouter_score(quiz.questions[0].theme, quiz.score)
-        user.afficher_resultats()
+
+
+def menu():
+    while True:
+        afficher_entete()
+        print("Que voulez vous faire: ")
+        print("1) Jouer !!!")
+        print("2) Voir resultats")
+        print("3) Quitter le quiz")
+        prompt = input("Entrez votre reponse : ")
+        if prompt == "1":
+            jouer()
+        elif prompt == "2":
+            afficher_entete()
+            user.afficher_resultats()
+        elif prompt == "3":
+            sys.exit("Arret du programme...")
+        else:
+            print("Veuillez entrer un input valide")
+            menu()
         input("\nAppuyez sur Entree pour revenir au menu...")
+
+
+menu()
