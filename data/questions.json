@@ -2,16 +2,6 @@
  {
   "id": 1,
   "theme": "Python",
-  "question": "Python utilise l'indentation pour délimiter les blocs de code, au lieu d'accolades.",
-  "options": [
-   "Vrai",
-   "Faux"
-  ],
-  "reponse": "Vrai"
- },
- {
-  "id": 2,
-  "theme": "Python",
   "question": "Laquelle de ces syntaxes crée un dictionnaire en Python ?",
   "options": [
    "(\"key\": \"value\")",
@@ -21,27 +11,7 @@
   "reponse": "{\"key\": \"value\"}"
  },
  {
-  "id": 3,
-  "theme": "Python",
-  "question": "Le nom de Python vient d'une émission de télévision.",
-  "options": [
-   "Vrai",
-   "Faux"
-  ],
-  "reponse": "Vrai"
- },
- {
-  "id": 4,
-  "theme": "Python",
-  "question": "Python a débuté comme un projet personnel.",
-  "options": [
-   "Vrai",
-   "Faux"
-  ],
-  "reponse": "Vrai"
- },
- {
-  "id": 5,
+  "id": 2,
   "theme": "Python",
   "question": "En Python, quelle instruction affiche correctement la chaîne « Hello World » ?",
   "options": [
@@ -53,18 +23,608 @@
   "reponse": "print(\"Hello World\")"
  },
  {
+  "id": 3,
+  "theme": "Python",
+  "question": "Quel type de valeur renvoie la fonction input() ?",
+  "options": [
+   "int",
+   "bool",
+   "str",
+   "float"
+  ],
+  "reponse": "str"
+ },
+ {
+  "id": 4,
+  "theme": "Python",
+  "question": "Quelle fonction renvoie le nombre d'éléments d'une liste ?",
+  "options": [
+   "len()",
+   "count()",
+   "size()",
+   "length()"
+  ],
+  "reponse": "len()"
+ },
+ {
+  "id": 5,
+  "theme": "Python",
+  "question": "Que vaut l'expression 7 // 2 ?",
+  "options": [
+   "3.5",
+   "1",
+   "3",
+   "4"
+  ],
+  "reponse": "3"
+ },
+ {
   "id": 6,
   "theme": "Python",
-  "question": "Le langage Python est basé sur une version modifiée de JavaScript.",
+  "question": "Que vaut l'expression 7 % 3 ?",
   "options": [
-   "Vrai",
-   "Faux"
+   "3",
+   "1",
+   "2",
+   "0"
   ],
-  "reponse": "Faux"
+  "reponse": "1"
  },
  {
   "id": 7,
-  "theme": "Linux",
+  "theme": "Python",
+  "question": "Que vaut l'expression 2 ** 3 ?",
+  "options": [
+   "8",
+   "5",
+   "9",
+   "6"
+  ],
+  "reponse": "8"
+ },
+ {
+  "id": 8,
+  "theme": "Python",
+  "question": "Quel mot-clé permet de définir une fonction ?",
+  "options": [
+   "function",
+   "func",
+   "fn",
+   "def"
+  ],
+  "reponse": "def"
+ },
+ {
+  "id": 9,
+  "theme": "Python",
+  "question": "Quel mot-clé permet de définir une classe ?",
+  "options": [
+   "object",
+   "class",
+   "struct",
+   "def"
+  ],
+  "reponse": "class"
+ },
+ {
+  "id": 10,
+  "theme": "Python",
+  "question": "Comment ajouter un élément x à la fin d'une liste ?",
+  "options": [
+   "liste.push(x)",
+   "liste.append(x)",
+   "liste.add(x)",
+   "liste.insert(x)"
+  ],
+  "reponse": "liste.append(x)"
+ },
+ {
+  "id": 11,
+  "theme": "Python",
+  "question": "Laquelle de ces structures est immuable ?",
+  "options": [
+   "dict",
+   "set",
+   "tuple",
+   "list"
+  ],
+  "reponse": "tuple"
+ },
+ {
+  "id": 12,
+  "theme": "Python",
+  "question": "Quel est, par convention, le premier paramètre d'une méthode d'instance ?",
+  "options": [
+   "me",
+   "self",
+   "cls",
+   "this"
+  ],
+  "reponse": "self"
+ },
+ {
+  "id": 13,
+  "theme": "Python",
+  "question": "Quelle méthode est appelée automatiquement à la création d'un objet ?",
+  "options": [
+   "__init__",
+   "__start__",
+   "__create__",
+   "constructor"
+  ],
+  "reponse": "__init__"
+ },
+ {
+  "id": 14,
+  "theme": "Python",
+  "question": "Quelle valeur représente l'absence de valeur en Python ?",
+  "options": [
+   "None",
+   "null",
+   "undefined",
+   "nil"
+  ],
+  "reponse": "None"
+ },
+ {
+  "id": 15,
+  "theme": "Python",
+  "question": "Quel opérateur compare l'égalité de deux valeurs ?",
+  "options": [
+   "is",
+   "===",
+   "=",
+   "=="
+  ],
+  "reponse": "=="
+ },
+ {
+  "id": 16,
+  "theme": "Python",
+  "question": "Quel opérateur vérifie que deux variables désignent le même objet ?",
+  "options": [
+   "is",
+   "==",
+   "equals",
+   "==="
+  ],
+  "reponse": "is"
+ },
+ {
+  "id": 17,
+  "theme": "Python",
+  "question": "Que vaut len(\"Bonjour\") ?",
+  "options": [
+   "1",
+   "8",
+   "7",
+   "6"
+  ],
+  "reponse": "7"
+ },
+ {
+  "id": 18,
+  "theme": "Python",
+  "question": "Que renvoie \"abc\"[0] ?",
+  "options": [
+   "\"c\"",
+   "\"a\"",
+   "Une erreur IndexError",
+   "\"abc\""
+  ],
+  "reponse": "\"a\""
+ },
+ {
+  "id": 19,
+  "theme": "Python",
+  "question": "Que renvoie [1, 2, 3][-1] ?",
+  "options": [
+   "1",
+   "-1",
+   "Une erreur IndexError",
+   "3"
+  ],
+  "reponse": "3"
+ },
+ {
+  "id": 20,
+  "theme": "Python",
+  "question": "Que produit list(range(3)) ?",
+  "options": [
+   "[0, 1, 2, 3]",
+   "[1, 2, 3]",
+   "[0, 1, 2]",
+   "[3]"
+  ],
+  "reponse": "[0, 1, 2]"
+ },
+ {
+  "id": 21,
+  "theme": "Python",
+  "question": "Quel mot-clé interrompt immédiatement une boucle ?",
+  "options": [
+   "break",
+   "stop",
+   "continue",
+   "exit"
+  ],
+  "reponse": "break"
+ },
+ {
+  "id": 22,
+  "theme": "Python",
+  "question": "Quel mot-clé passe directement à l'itération suivante d'une boucle ?",
+  "options": [
+   "pass",
+   "skip",
+   "next",
+   "continue"
+  ],
+  "reponse": "continue"
+ },
+ {
+  "id": 23,
+  "theme": "Python",
+  "question": "Quelle instruction ne fait rien et sert à écrire un bloc vide ?",
+  "options": [
+   "void",
+   "pass",
+   "continue",
+   "None"
+  ],
+  "reponse": "pass"
+ },
+ {
+  "id": 24,
+  "theme": "Python",
+  "question": "Quelle exception lève int(\"abc\") ?",
+  "options": [
+   "TypeError",
+   "SyntaxError",
+   "ValueError",
+   "KeyError"
+  ],
+  "reponse": "ValueError"
+ },
+ {
+  "id": 25,
+  "theme": "Python",
+  "question": "Quelle exception est levée lors de l'accès à une clé absente d'un dictionnaire ?",
+  "options": [
+   "AttributeError",
+   "IndexError",
+   "ValueError",
+   "KeyError"
+  ],
+  "reponse": "KeyError"
+ },
+ {
+  "id": 26,
+  "theme": "Python",
+  "question": "Quelle exception lève open() sur un fichier inexistant en mode lecture ?",
+  "options": [
+   "ValueError",
+   "FileNotFoundError",
+   "ImportError",
+   "KeyError"
+  ],
+  "reponse": "FileNotFoundError"
+ },
+ {
+  "id": 27,
+  "theme": "Python",
+  "question": "Quel module de la bibliothèque standard lit et écrit du JSON ?",
+  "options": [
+   "csv",
+   "os",
+   "pickle",
+   "json"
+  ],
+  "reponse": "json"
+ },
+ {
+  "id": 28,
+  "theme": "Python",
+  "question": "Quelle fonction lit un JSON depuis un fichier ouvert ?",
+  "options": [
+   "json.loads",
+   "json.read",
+   "json.load",
+   "json.dump"
+  ],
+  "reponse": "json.load"
+ },
+ {
+  "id": 29,
+  "theme": "Python",
+  "question": "Que renvoie json.dumps(data) ?",
+  "options": [
+   "Un dictionnaire",
+   "Une chaîne de caractères",
+   "Rien : il écrit dans un fichier",
+   "Une liste"
+  ],
+  "reponse": "Une chaîne de caractères"
+ },
+ {
+  "id": 30,
+  "theme": "Python",
+  "question": "Quel mode de open() ajoute du contenu à la fin d'un fichier ?",
+  "options": [
+   "\"x\"",
+   "\"r\"",
+   "\"a\"",
+   "\"w\""
+  ],
+  "reponse": "\"a\""
+ },
+ {
+  "id": 31,
+  "theme": "Python",
+  "question": "Que fait open() en mode \"w\" sur un fichier existant ?",
+  "options": [
+   "Il l'ouvre en lecture seule",
+   "Il vide le fichier avant d'écrire",
+   "Il lève une erreur",
+   "Il ajoute à la fin"
+  ],
+  "reponse": "Il vide le fichier avant d'écrire"
+ },
+ {
+  "id": 32,
+  "theme": "Python",
+  "question": "Quel est l'intérêt principal de with open(...) as f ?",
+  "options": [
+   "La lecture est plus rapide",
+   "Le fichier est fermé automatiquement",
+   "Le fichier est chiffré",
+   "Une copie du fichier est créée"
+  ],
+  "reponse": "Le fichier est fermé automatiquement"
+ },
+ {
+  "id": 33,
+  "theme": "Python",
+  "question": "Que renvoie type(3.0) ?",
+  "options": [
+   "<class 'str'>",
+   "<class 'int'>",
+   "<class 'float'>",
+   "<class 'double'>"
+  ],
+  "reponse": "<class 'float'>"
+ },
+ {
+  "id": 34,
+  "theme": "Python",
+  "question": "Que vaut bool(\"\") ?",
+  "options": [
+   "True",
+   "None",
+   "False",
+   "Une erreur"
+  ],
+  "reponse": "False"
+ },
+ {
+  "id": 35,
+  "theme": "Python",
+  "question": "Que vaut bool([0]) ?",
+  "options": [
+   "0",
+   "None",
+   "False",
+   "True"
+  ],
+  "reponse": "True"
+ },
+ {
+  "id": 36,
+  "theme": "Python",
+  "question": "Quel caractère commence un commentaire sur une ligne ?",
+  "options": [
+   "#",
+   "--",
+   "/*",
+   "//"
+  ],
+  "reponse": "#"
+ },
+ {
+  "id": 37,
+  "theme": "Python",
+  "question": "Qu'affiche print(f\"{2 + 3}\") ?",
+  "options": [
+   "f5",
+   "{2 + 3}",
+   "5",
+   "2 + 3"
+  ],
+  "reponse": "5"
+ },
+ {
+  "id": 38,
+  "theme": "Python",
+  "question": "Quelle méthode retire les espaces en début et en fin de chaîne ?",
+  "options": [
+   "chop()",
+   "strip()",
+   "clean()",
+   "trim()"
+  ],
+  "reponse": "strip()"
+ },
+ {
+  "id": 39,
+  "theme": "Python",
+  "question": "Que renvoie \"a,b,c\".split(\",\") ?",
+  "options": [
+   "['a,b,c']",
+   "'abc'",
+   "['a', 'b', 'c']",
+   "('a', 'b', 'c')"
+  ],
+  "reponse": "['a', 'b', 'c']"
+ },
+ {
+  "id": 40,
+  "theme": "Python",
+  "question": "Que renvoie \"-\".join([\"a\", \"b\"]) ?",
+  "options": [
+   "['a', '-', 'b']",
+   "\"-ab\"",
+   "\"a-b\"",
+   "\"ab-\""
+  ],
+  "reponse": "\"a-b\""
+ },
+ {
+  "id": 41,
+  "theme": "Python",
+  "question": "Quelle fonction renvoie une nouvelle liste triée sans modifier l'originale ?",
+  "options": [
+   "sorted()",
+   "list.sort()",
+   "order()",
+   "sort()"
+  ],
+  "reponse": "sorted()"
+ },
+ {
+  "id": 42,
+  "theme": "Python",
+  "question": "Que renvoie l'appel liste.sort() ?",
+  "options": [
+   "None",
+   "True",
+   "Une copie triée",
+   "La liste triée"
+  ],
+  "reponse": "None"
+ },
+ {
+  "id": 43,
+  "theme": "Python",
+  "question": "Quel décorateur permet d'utiliser une méthode comme un attribut calculé ?",
+  "options": [
+   "@staticmethod",
+   "@getter",
+   "@attribute",
+   "@property"
+  ],
+  "reponse": "@property"
+ },
+ {
+  "id": 44,
+  "theme": "Python",
+  "question": "Quelle syntaxe fait hériter la classe B de la classe A ?",
+  "options": [
+   "class B(A):",
+   "class B inherits A:",
+   "class B extends A:",
+   "class B : A"
+  ],
+  "reponse": "class B(A):"
+ },
+ {
+  "id": 45,
+  "theme": "Python",
+  "question": "Quelle fonction permet d'appeler une méthode de la classe parente ?",
+  "options": [
+   "parent()",
+   "super()",
+   "self.parent()",
+   "base()"
+  ],
+  "reponse": "super()"
+ },
+ {
+  "id": 46,
+  "theme": "Python",
+  "question": "Que renvoie {\"a\": 1}.get(\"b\") ?",
+  "options": [
+   "Une erreur KeyError",
+   "\"\"",
+   "None",
+   "0"
+  ],
+  "reponse": "None"
+ },
+ {
+  "id": 47,
+  "theme": "Python",
+  "question": "Quelle syntaxe crée un ensemble (set) vide ?",
+  "options": [
+   "set()",
+   "[]",
+   "()",
+   "{}"
+  ],
+  "reponse": "set()"
+ },
+ {
+  "id": 48,
+  "theme": "Python",
+  "question": "Que renvoie isinstance(3, int) ?",
+  "options": [
+   "3",
+   "int",
+   "True",
+   "False"
+  ],
+  "reponse": "True"
+ },
+ {
+  "id": 49,
+  "theme": "Python",
+  "question": "Que produit [x * 2 for x in [1, 2, 3]] ?",
+  "options": [
+   "[1, 2, 3, 1, 2, 3]",
+   "[2, 4, 6]",
+   "[2, 4, 6, 8]",
+   "12"
+  ],
+  "reponse": "[2, 4, 6]"
+ },
+ {
+  "id": 50,
+  "theme": "Python",
+  "question": "Qui a créé le langage Python ?",
+  "options": [
+   "Guido van Rossum",
+   "Linus Torvalds",
+   "James Gosling",
+   "Dennis Ritchie"
+  ],
+  "reponse": "Guido van Rossum"
+ },
+ {
+  "id": 51,
+  "theme": "Python",
+  "question": "Que contient __name__ quand un fichier est exécuté directement ?",
+  "options": [
+   "\"__main__\"",
+   "Le nom du fichier",
+   "\"main\"",
+   "None"
+  ],
+  "reponse": "\"__main__\""
+ },
+ {
+  "id": 52,
+  "theme": "Python",
+  "question": "Quelle fonction fournit à la fois l'indice et la valeur lors d'un parcours ?",
+  "options": [
+   "items()",
+   "range()",
+   "zip()",
+   "enumerate()"
+  ],
+  "reponse": "enumerate()"
+ },
+ {
+  "id": 53,
+  "theme": "Bash",
   "question": "Que fait la commande 'chmod 755 file.sh' ?",
   "options": [
    "Rend le fichier accessible en lecture seule pour tous",
@@ -75,8 +635,8 @@
   "reponse": "Définit les permissions : propriétaire rwx, groupe r-x, autres r-x"
  },
  {
-  "id": 8,
-  "theme": "Linux",
+  "id": 54,
+  "theme": "Bash",
   "question": "Que fait l'opérateur pipe (|) sous Linux ?",
   "options": [
    "Exécute deux commandes simultanément",
@@ -87,8 +647,8 @@
   "reponse": "Transmet la sortie d'une commande comme entrée de la suivante"
  },
  {
-  "id": 9,
-  "theme": "Linux",
+  "id": 55,
+  "theme": "Bash",
   "question": "Quelle est la différence entre un lien physique (hard link) et un lien symbolique ?",
   "options": [
    "Les liens physiques servent aux fichiers, les liens symboliques uniquement aux répertoires",
@@ -99,8 +659,8 @@
   "reponse": "Le lien physique pointe vers l'inode ; le lien symbolique pointe vers le chemin et peut traverser les systèmes de fichiers"
  },
  {
-  "id": 10,
-  "theme": "Linux",
+  "id": 56,
+  "theme": "Bash",
   "question": "Quelle commande affiche les processus en cours d'exécution ?",
   "options": [
    "run",
@@ -111,18 +671,8 @@
   "reponse": "ps (avec des variantes comme ps aux pour tous les processus)"
  },
  {
-  "id": 11,
-  "theme": "Linux",
-  "question": "Sous Linux, tout est traité comme un fichier.",
-  "options": [
-   "Vrai",
-   "Faux"
-  ],
-  "reponse": "Vrai"
- },
- {
-  "id": 12,
-  "theme": "Linux",
+  "id": 57,
+  "theme": "Bash",
   "question": "Que fait la commande 'grep' ?",
   "options": [
    "Regroupe les fichiers par type",
@@ -133,8 +683,8 @@
   "reponse": "Recherche des motifs de texte (expressions régulières) dans des fichiers ou une entrée"
  },
  {
-  "id": 13,
-  "theme": "Linux",
+  "id": 58,
+  "theme": "Bash",
   "question": "À quoi sert le répertoire /etc ?",
   "options": [
    "Il contient les répertoires personnels des utilisateurs",
@@ -145,8 +695,8 @@
   "reponse": "Il contient les fichiers de configuration du système"
  },
  {
-  "id": 14,
-  "theme": "Linux",
+  "id": 59,
+  "theme": "Bash",
   "question": "Que signifie 'sudo' et que fait cette commande ?",
   "options": [
    "System Utility for Disk Operations",
@@ -157,28 +707,8 @@
   "reponse": "Superuser Do : exécute une commande avec les privilèges root"
  },
  {
-  "id": 15,
-  "theme": "Linux",
-  "question": "Linus Sebastian est le créateur du noyau Linux, utilisé ensuite par Linux, Android et Chrome OS.",
-  "options": [
-   "Vrai",
-   "Faux"
-  ],
-  "reponse": "Faux"
- },
- {
-  "id": 16,
-  "theme": "Linux",
-  "question": "Linus Torvalds a créé Linux et Git.",
-  "options": [
-   "Vrai",
-   "Faux"
-  ],
-  "reponse": "Vrai"
- },
- {
-  "id": 17,
-  "theme": "Linux",
+  "id": 60,
+  "theme": "Bash",
   "question": "Le temps Unix correspond au nombre de secondes écoulées depuis quelle date ?",
   "options": [
    "Minuit, le 4 juillet 1976",
@@ -189,18 +719,8 @@
   "reponse": "Minuit, le 1er janvier 1970"
  },
  {
-  "id": 18,
-  "theme": "Linux",
-  "question": "Le temps des ordinateurs est mesuré selon le système « EPOX ».",
-  "options": [
-   "Vrai",
-   "Faux"
-  ],
-  "reponse": "Faux"
- },
- {
-  "id": 19,
-  "theme": "Linux",
+  "id": 61,
+  "theme": "Bash",
   "question": "Quel est le nom de la faille de sécurité découverte dans Bash en 2014 ?",
   "options": [
    "Shellshock",
@@ -211,8 +731,8 @@
   "reponse": "Shellshock"
  },
  {
-  "id": 20,
-  "theme": "Linux",
+  "id": 62,
+  "theme": "Bash",
   "question": "Dans le monde du logiciel, que signifie LTS ?",
   "options": [
    "Ludicrous Transfer Speed",
@@ -223,7 +743,523 @@
   "reponse": "Long Term Support"
  },
  {
-  "id": 21,
+  "id": 63,
+  "theme": "Bash",
+  "question": "Quelle commande affiche le chemin du répertoire courant ?",
+  "options": [
+   "ls",
+   "cd",
+   "dir",
+   "pwd"
+  ],
+  "reponse": "pwd"
+ },
+ {
+  "id": 64,
+  "theme": "Bash",
+  "question": "Quelle commande liste les fichiers, y compris les fichiers cachés ?",
+  "options": [
+   "ls -r",
+   "ls -a",
+   "ls -h",
+   "ls -l"
+  ],
+  "reponse": "ls -a"
+ },
+ {
+  "id": 65,
+  "theme": "Bash",
+  "question": "Quelle commande crée un répertoire ?",
+  "options": [
+   "mkdir",
+   "md",
+   "mkfile",
+   "touch"
+  ],
+  "reponse": "mkdir"
+ },
+ {
+  "id": 66,
+  "theme": "Bash",
+  "question": "Quelle commande crée un fichier vide ou met à jour sa date de modification ?",
+  "options": [
+   "cat",
+   "mkdir",
+   "touch",
+   "new"
+  ],
+  "reponse": "touch"
+ },
+ {
+  "id": 67,
+  "theme": "Bash",
+  "question": "Quelle commande supprime un répertoire et tout son contenu ?",
+  "options": [
+   "del -r",
+   "rm -r",
+   "rmdir",
+   "rm -i"
+  ],
+  "reponse": "rm -r"
+ },
+ {
+  "id": 68,
+  "theme": "Bash",
+  "question": "Quelle commande copie un fichier ?",
+  "options": [
+   "dup",
+   "cp",
+   "mv",
+   "copy"
+  ],
+  "reponse": "cp"
+ },
+ {
+  "id": 69,
+  "theme": "Bash",
+  "question": "Quelle commande déplace ou renomme un fichier ?",
+  "options": [
+   "ren",
+   "ln",
+   "mv",
+   "cp"
+  ],
+  "reponse": "mv"
+ },
+ {
+  "id": 70,
+  "theme": "Bash",
+  "question": "Quelle commande affiche le contenu d'un fichier dans le terminal ?",
+  "options": [
+   "echo",
+   "ls",
+   "cat",
+   "type"
+  ],
+  "reponse": "cat"
+ },
+ {
+  "id": 71,
+  "theme": "Bash",
+  "question": "Quelle commande affiche les 10 premières lignes d'un fichier ?",
+  "options": [
+   "head",
+   "top",
+   "tail",
+   "first"
+  ],
+  "reponse": "head"
+ },
+ {
+  "id": 72,
+  "theme": "Bash",
+  "question": "Quelle commande affiche en continu les nouvelles lignes ajoutées à un fichier ?",
+  "options": [
+   "tail -f",
+   "cat -f",
+   "head -f",
+   "less -r"
+  ],
+  "reponse": "tail -f"
+ },
+ {
+  "id": 73,
+  "theme": "Bash",
+  "question": "Quel symbole redirige la sortie d'une commande vers un fichier en l'écrasant ?",
+  "options": [
+   "<",
+   ">",
+   ">>",
+   "|"
+  ],
+  "reponse": ">"
+ },
+ {
+  "id": 74,
+  "theme": "Bash",
+  "question": "Quel symbole redirige la sortie d'une commande à la fin d'un fichier ?",
+  "options": [
+   "|",
+   ">",
+   ">>",
+   "&"
+  ],
+  "reponse": ">>"
+ },
+ {
+  "id": 75,
+  "theme": "Bash",
+  "question": "Que représente le caractère ~ dans un chemin ?",
+  "options": [
+   "Le répertoire personnel de l'utilisateur",
+   "La racine du système",
+   "Le répertoire courant",
+   "Le répertoire parent"
+  ],
+  "reponse": "Le répertoire personnel de l'utilisateur"
+ },
+ {
+  "id": 76,
+  "theme": "Bash",
+  "question": "Que représente .. dans un chemin ?",
+  "options": [
+   "Le répertoire courant",
+   "Le répertoire parent",
+   "La racine du système",
+   "Le répertoire personnel"
+  ],
+  "reponse": "Le répertoire parent"
+ },
+ {
+  "id": 77,
+  "theme": "Bash",
+  "question": "Quelle variable contient le code de retour de la dernière commande ?",
+  "options": [
+   "$#",
+   "$!",
+   "$?",
+   "$0"
+  ],
+  "reponse": "$?"
+ },
+ {
+  "id": 78,
+  "theme": "Bash",
+  "question": "Dans un script, que contient la variable $# ?",
+  "options": [
+   "Le nombre d'arguments",
+   "Le code de retour",
+   "Le premier argument",
+   "Le PID du script"
+  ],
+  "reponse": "Le nombre d'arguments"
+ },
+ {
+  "id": 79,
+  "theme": "Bash",
+  "question": "Dans un script, que contient la variable $1 ?",
+  "options": [
+   "Le PID du script",
+   "Le nom du script",
+   "Le nombre d'arguments",
+   "Le premier argument"
+  ],
+  "reponse": "Le premier argument"
+ },
+ {
+  "id": 80,
+  "theme": "Bash",
+  "question": "Comment appelle-t-on la ligne #!/bin/bash placée en tête d'un script ?",
+  "options": [
+   "L'export",
+   "Le prompt",
+   "L'alias",
+   "Le shebang"
+  ],
+  "reponse": "Le shebang"
+ },
+ {
+  "id": 81,
+  "theme": "Bash",
+  "question": "Quelle commande rend un script exécutable ?",
+  "options": [
+   "chown +x script.sh",
+   "chmod -x script.sh",
+   "exec script.sh",
+   "chmod +x script.sh"
+  ],
+  "reponse": "chmod +x script.sh"
+ },
+ {
+  "id": 82,
+  "theme": "Bash",
+  "question": "Quelle commande affiche la valeur de la variable HOME ?",
+  "options": [
+   "print $HOME",
+   "echo HOME",
+   "get HOME",
+   "echo $HOME"
+  ],
+  "reponse": "echo $HOME"
+ },
+ {
+  "id": 83,
+  "theme": "Bash",
+  "question": "Quel mot-clé rend une variable accessible aux processus enfants ?",
+  "options": [
+   "readonly",
+   "unset",
+   "local",
+   "export"
+  ],
+  "reponse": "export"
+ },
+ {
+  "id": 84,
+  "theme": "Bash",
+  "question": "Quel code de retour indique qu'une commande s'est terminée avec succès ?",
+  "options": [
+   "255",
+   "1",
+   "0",
+   "-1"
+  ],
+  "reponse": "0"
+ },
+ {
+  "id": 85,
+  "theme": "Bash",
+  "question": "Quelle commande recherche des fichiers par leur nom dans une arborescence ?",
+  "options": [
+   "wc",
+   "find",
+   "cat",
+   "grep"
+  ],
+  "reponse": "find"
+ },
+ {
+  "id": 86,
+  "theme": "Bash",
+  "question": "Quelle commande compte le nombre de lignes d'un fichier ?",
+  "options": [
+   "wc -l",
+   "nl -c",
+   "ls -l",
+   "count -l"
+  ],
+  "reponse": "wc -l"
+ },
+ {
+  "id": 87,
+  "theme": "Bash",
+  "question": "Quelle commande envoie un signal d'arrêt à un processus à partir de son PID ?",
+  "options": [
+   "exit",
+   "kill",
+   "stop",
+   "end"
+  ],
+  "reponse": "kill"
+ },
+ {
+  "id": 88,
+  "theme": "Bash",
+  "question": "Quel caractère placé en fin de commande la lance en arrière-plan ?",
+  "options": [
+   "!",
+   ";",
+   "&",
+   "|"
+  ],
+  "reponse": "&"
+ },
+ {
+  "id": 89,
+  "theme": "Bash",
+  "question": "Quel opérateur exécute la seconde commande uniquement si la première réussit ?",
+  "options": [
+   "|",
+   ";",
+   "&&",
+   "||"
+  ],
+  "reponse": "&&"
+ },
+ {
+  "id": 90,
+  "theme": "Bash",
+  "question": "Quel opérateur exécute la seconde commande uniquement si la première échoue ?",
+  "options": [
+   "||",
+   ">>",
+   ";",
+   "&&"
+  ],
+  "reponse": "||"
+ },
+ {
+  "id": 91,
+  "theme": "Bash",
+  "question": "Quelle commande affiche l'historique des commandes saisies ?",
+  "options": [
+   "history",
+   "log",
+   "past",
+   "last"
+  ],
+  "reponse": "history"
+ },
+ {
+  "id": 92,
+  "theme": "Bash",
+  "question": "Quelle commande affiche la page de manuel d'une commande ?",
+  "options": [
+   "doc",
+   "guide",
+   "about",
+   "man"
+  ],
+  "reponse": "man"
+ },
+ {
+  "id": 93,
+  "theme": "Bash",
+  "question": "Quelle commande change le propriétaire d'un fichier ?",
+  "options": [
+   "chmod",
+   "su",
+   "chown",
+   "owner"
+  ],
+  "reponse": "chown"
+ },
+ {
+  "id": 94,
+  "theme": "Bash",
+  "question": "Que signifient les lettres rwx dans les permissions ?",
+  "options": [
+   "Racine, écriture, extension",
+   "Réseau, écriture, export",
+   "Lecture, écriture, exécution",
+   "Lecture, web, exécution"
+  ],
+  "reponse": "Lecture, écriture, exécution"
+ },
+ {
+  "id": 95,
+  "theme": "Bash",
+  "question": "Quelles permissions donne chmod 644 ?",
+  "options": [
+   "Tout le monde rw-",
+   "Propriétaire r--, groupe rw-, autres rw-",
+   "Propriétaire rw-, groupe r--, autres r--",
+   "Propriétaire rwx, groupe r--, autres r--"
+  ],
+  "reponse": "Propriétaire rw-, groupe r--, autres r--"
+ },
+ {
+  "id": 96,
+  "theme": "Bash",
+  "question": "Quelle commande affiche l'espace disque des systèmes de fichiers ?",
+  "options": [
+   "du -s",
+   "df -h",
+   "ls -h",
+   "free -h"
+  ],
+  "reponse": "df -h"
+ },
+ {
+  "id": 97,
+  "theme": "Bash",
+  "question": "Quelle commande affiche la mémoire vive libre et utilisée ?",
+  "options": [
+   "free",
+   "df",
+   "mem",
+   "du"
+  ],
+  "reponse": "free"
+ },
+ {
+  "id": 98,
+  "theme": "Bash",
+  "question": "Quelle commande permet de remplacer du texte dans un flux ou un fichier ?",
+  "options": [
+   "sed",
+   "sort",
+   "cut",
+   "grep"
+  ],
+  "reponse": "sed"
+ },
+ {
+  "id": 99,
+  "theme": "Bash",
+  "question": "Quelle commande trie les lignes d'un fichier ?",
+  "options": [
+   "order",
+   "sort",
+   "uniq",
+   "wc"
+  ],
+  "reponse": "sort"
+ },
+ {
+  "id": 100,
+  "theme": "Bash",
+  "question": "Quelle commande supprime les lignes identiques consécutives ?",
+  "options": [
+   "uniq",
+   "cut",
+   "sort",
+   "distinct"
+  ],
+  "reponse": "uniq"
+ },
+ {
+  "id": 101,
+  "theme": "Bash",
+  "question": "Quelle commande extrait une archive archive.tar.gz ?",
+  "options": [
+   "unzip archive.tar.gz",
+   "gzip -x archive.tar.gz",
+   "tar -czf archive.tar.gz",
+   "tar -xzf archive.tar.gz"
+  ],
+  "reponse": "tar -xzf archive.tar.gz"
+ },
+ {
+  "id": 102,
+  "theme": "Bash",
+  "question": "Quelle commande affiche les processus en temps réel, avec rafraîchissement ?",
+  "options": [
+   "ps",
+   "top",
+   "ls",
+   "jobs"
+  ],
+  "reponse": "top"
+ },
+ {
+  "id": 103,
+  "theme": "Bash",
+  "question": "Quel fichier Bash lit-il à l'ouverture d'un shell interactif non connecté ?",
+  "options": [
+   "~/.ssh/config",
+   "/etc/hosts",
+   "~/.bashrc",
+   "/etc/passwd"
+  ],
+  "reponse": "~/.bashrc"
+ },
+ {
+  "id": 104,
+  "theme": "Bash",
+  "question": "Quel caractère joker correspond à n'importe quelle suite de caractères ?",
+  "options": [
+   "#",
+   "*",
+   "?",
+   "%"
+  ],
+  "reponse": "*"
+ },
+ {
+  "id": 105,
+  "theme": "Bash",
+  "question": "Quelle commande crée un lien symbolique ?",
+  "options": [
+   "alias cible lien",
+   "mklink cible lien",
+   "ln cible lien",
+   "ln -s cible lien"
+  ],
+  "reponse": "ln -s cible lien"
+ },
+ {
+  "id": 106,
   "theme": "Git",
   "question": "Sur une branche contenant 5 commits, vous voulez réunir les 3 derniers en un seul avant le merge. Quelle commande ouvre un éditeur interactif permettant de les squasher ?",
   "options": [
@@ -235,7 +1271,7 @@
   "reponse": "git rebase -i HEAD~3"
  },
  {
-  "id": 22,
+  "id": 107,
   "theme": "Git",
   "question": "Un correctif critique a été commité sur la branche de release. Vous voulez appliquer uniquement ce commit à votre branche de développement, sans fusionner toute la release. Quelle commande utiliser ?",
   "options": [
@@ -247,7 +1283,7 @@
   "reponse": "git cherry-pick"
  },
  {
-  "id": 23,
+  "id": 108,
   "theme": "Git",
   "question": "Après un git reset --hard accidentel, vos 3 derniers commits n'apparaissent plus dans git log. Quel outil enregistre tous les déplacements de HEAD et permet de retrouver leurs SHA ?",
   "options": [
@@ -259,7 +1295,7 @@
   "reponse": "git reflog"
  },
  {
-  "id": 24,
+  "id": 109,
   "theme": "Git",
   "question": "Une régression a été introduite dans l'un des 50 derniers commits. Quelle commande lance une recherche dichotomique dans l'historique pour trouver le commit fautif ?",
   "options": [
@@ -271,7 +1307,7 @@
   "reponse": "git bisect start"
  },
  {
-  "id": 25,
+  "id": 110,
   "theme": "Git",
   "question": "Après un git stash, quelle commande réapplique les modifications mises de côté ET les retire de la liste du stash ?",
   "options": [
@@ -283,7 +1319,7 @@
   "reponse": "git stash pop"
  },
  {
-  "id": 26,
+  "id": 111,
   "theme": "Git",
   "question": "Quel hook Git s'exécute avant la validation d'un commit et peut le rejeter si le message ne respecte pas le format imposé ?",
   "options": [
@@ -295,7 +1331,7 @@
   "reponse": "commit-msg"
  },
  {
-  "id": 27,
+  "id": 112,
   "theme": "Git",
   "question": "Vous poussez une branche rebasée vers un dépôt partagé. Quelle option évite d'écraser les commits poussés entre-temps par d'autres ?",
   "options": [
@@ -307,7 +1343,7 @@
   "reponse": "git push --force-with-lease"
  },
  {
-  "id": 28,
+  "id": 113,
   "theme": "Git",
   "question": "Quelle fonctionnalité permet d'extraire une seconde branche dans un répertoire séparé, sans recloner le dépôt ?",
   "options": [
@@ -319,7 +1355,7 @@
   "reponse": "git worktree add"
  },
  {
-  "id": 29,
+  "id": 114,
   "theme": "Git",
   "question": "Vous voulez inclure une bibliothèque externe, hébergée dans son propre dépôt, comme sous-répertoire de votre projet en gardant son historique indépendant. Quelle fonctionnalité utiliser ?",
   "options": [
@@ -331,7 +1367,7 @@
   "reponse": "git submodule add"
  },
  {
-  "id": 30,
+  "id": 115,
   "theme": "Git",
   "question": "Lors d'un rebase interactif, quelle est la différence entre squash et fixup ?",
   "options": [
@@ -343,625 +1379,483 @@
   "reponse": "Squash permet de modifier le message du commit combiné ; fixup abandonne le message du commit absorbé"
  },
  {
-  "id": 31,
-  "theme": "Programmation",
-  "question": "Quel langage utilise Node.js ?",
+  "id": 116,
+  "theme": "Git",
+  "question": "Quelle commande initialise un nouveau dépôt Git ?",
   "options": [
-   "Java",
-   "Joomla Source Code",
-   "JavaScript",
-   "Java Source"
+   "git create",
+   "git start",
+   "git init",
+   "git new"
   ],
-  "reponse": "JavaScript"
+  "reponse": "git init"
  },
  {
-  "id": 32,
-  "theme": "Programmation",
-  "question": "Une valeur booléenne « 0 » correspond à :",
+  "id": 117,
+  "theme": "Git",
+  "question": "Quelle commande copie localement un dépôt distant ?",
   "options": [
-   "Vrai (True)",
-   "Faux (False)"
+   "git fetch",
+   "git copy",
+   "git clone",
+   "git pull"
   ],
-  "reponse": "Faux (False)"
+  "reponse": "git clone"
  },
  {
-  "id": 33,
-  "theme": "Programmation",
-  "question": "Quel langage de programmation porte le nom d'une île d'Indonésie ?",
+  "id": 118,
+  "theme": "Git",
+  "question": "Quelle commande ajoute un fichier modifié à l'index ?",
   "options": [
-   "C",
-   "Java",
-   "Python",
-   "Jakarta"
+   "git index",
+   "git commit",
+   "git push",
+   "git add"
   ],
-  "reponse": "Java"
+  "reponse": "git add"
  },
  {
-  "id": 34,
-  "theme": "Programmation",
-  "question": "Lequel de ces noms n'est PAS un algorithme de tri ?",
+  "id": 119,
+  "theme": "Git",
+  "question": "Quelle commande enregistre les modifications indexées dans l'historique ?",
   "options": [
-   "Bubble Sort",
-   "Quick Sort",
-   "Merge Sort",
-   "Float Sort"
+   "git add",
+   "git save",
+   "git commit",
+   "git push"
   ],
-  "reponse": "Float Sort"
+  "reponse": "git commit"
  },
  {
-  "id": 35,
-  "theme": "Programmation",
-  "question": "Quel langage sert de langage de script dans le moteur de jeu Unity 3D ?",
+  "id": 120,
+  "theme": "Git",
+  "question": "Quelle option de git commit permet d'écrire le message directement dans la commande ?",
   "options": [
-   "Java",
-   "C++",
-   "Objective-C",
-   "C#"
+   "-m",
+   "-a",
+   "-t",
+   "-c"
   ],
-  "reponse": "C#"
+  "reponse": "-m"
  },
  {
-  "id": 36,
-  "theme": "Programmation",
-  "question": "Lequel de ces langages est un langage de bas niveau ?",
+  "id": 121,
+  "theme": "Git",
+  "question": "Quelle commande envoie les commits locaux vers le dépôt distant ?",
   "options": [
-   "Pascal",
-   "Assembleur",
-   "C#",
-   "Python"
+   "git upload",
+   "git pull",
+   "git send",
+   "git push"
   ],
-  "reponse": "Assembleur"
+  "reponse": "git push"
  },
  {
-  "id": 37,
-  "theme": "Programmation",
-  "question": "L'acronyme « I18N » vient du terme « Interlocalization ».",
+  "id": 122,
+  "theme": "Git",
+  "question": "Quelle commande récupère les modifications distantes et les fusionne dans la branche courante ?",
   "options": [
-   "Vrai",
-   "Faux"
+   "git push",
+   "git pull",
+   "git clone",
+   "git fetch"
   ],
-  "reponse": "Faux"
+  "reponse": "git pull"
  },
  {
-  "id": 38,
-  "theme": "Programmation",
-  "question": "En programmation, l'opérateur ternaire s'écrit le plus souvent avec quel(s) symbole(s) ?",
+  "id": 123,
+  "theme": "Git",
+  "question": "Quelle commande récupère les modifications distantes sans les fusionner ?",
   "options": [
-   "?:",
-   "if then",
-   "??",
-   "?"
+   "git merge",
+   "git pull",
+   "git fetch",
+   "git sync"
   ],
-  "reponse": "?:"
+  "reponse": "git fetch"
  },
  {
-  "id": 39,
-  "theme": "Programmation",
-  "question": "Dans la plupart des langages, l'opérateur ++ équivaut à l'instruction « += 1 ».",
+  "id": 124,
+  "theme": "Git",
+  "question": "Quelle commande affiche l'état des fichiers (modifiés, indexés, non suivis) ?",
   "options": [
-   "Vrai",
-   "Faux"
+   "git info",
+   "git diff",
+   "git log",
+   "git status"
   ],
-  "reponse": "Vrai"
+  "reponse": "git status"
  },
  {
-  "id": 40,
-  "theme": "Programmation",
-  "question": "En quelle année le langage C# est-il sorti ?",
+  "id": 125,
+  "theme": "Git",
+  "question": "Quelle commande affiche l'historique des commits ?",
   "options": [
-   "2001",
-   "2000",
-   "1999",
-   "1998"
+   "git history",
+   "git show-all",
+   "git log",
+   "git status"
   ],
-  "reponse": "2000"
+  "reponse": "git log"
  },
  {
-  "id": 41,
-  "theme": "Programmation",
-  "question": "Le langage Swift a été créé pour remplacer quel autre langage ?",
+  "id": 126,
+  "theme": "Git",
+  "question": "Quelle commande affiche l'historique avec un commit par ligne ?",
   "options": [
-   "C++",
-   "Objective-C",
-   "C#",
-   "Ruby"
+   "git log --oneline",
+   "git log -1",
+   "git log --short",
+   "git status -s"
   ],
-  "reponse": "Objective-C"
+  "reponse": "git log --oneline"
  },
  {
-  "id": 42,
-  "theme": "Programmation",
-  "question": "Dans quel langage ne pourrait-on taper que des 0 et des 1 ?",
+  "id": 127,
+  "theme": "Git",
+  "question": "Quelle commande affiche les modifications non encore indexées ?",
   "options": [
-   "Python",
-   "C++",
-   "JavaScript",
-   "Binaire"
+   "git status",
+   "git diff",
+   "git show",
+   "git log"
   ],
-  "reponse": "Binaire"
+  "reponse": "git diff"
  },
  {
-  "id": 43,
-  "theme": "Programmation",
-  "question": "Combien de bits composent la mantisse d'un nombre flottant simple précision ?",
+  "id": 128,
+  "theme": "Git",
+  "question": "Quelle commande crée une nouvelle branche sans basculer dessus ?",
   "options": [
-   "8",
-   "23",
-   "53",
-   "15"
+   "git push nom",
+   "git branch nom",
+   "git commit -b nom",
+   "git new nom"
   ],
-  "reponse": "23"
+  "reponse": "git branch nom"
  },
  {
-  "id": 44,
-  "theme": "Programmation",
-  "question": "En CSS, quelle valeur ne peut PAS être utilisée avec la propriété « position » ?",
+  "id": 129,
+  "theme": "Git",
+  "question": "Quelle commande crée une branche et bascule immédiatement dessus ?",
   "options": [
-   "relative",
-   "center",
-   "static",
-   "absolute"
+   "git branch -s nom",
+   "git switch -c nom",
+   "git merge -c nom",
+   "git init nom"
   ],
-  "reponse": "center"
+  "reponse": "git switch -c nom"
  },
  {
-  "id": 45,
-  "theme": "Programmation",
-  "question": "Les pointeurs n'existaient pas dans le C original : ils ont été ajoutés avec C++.",
+  "id": 130,
+  "theme": "Git",
+  "question": "Quelle commande fusionne une autre branche dans la branche courante ?",
   "options": [
-   "Vrai",
-   "Faux"
+   "git push",
+   "git combine",
+   "git join",
+   "git merge"
   ],
-  "reponse": "Faux"
+  "reponse": "git merge"
  },
  {
-  "id": 46,
-  "theme": "Programmation",
-  "question": "Tout code doit être compilé en exécutable pour être lancé, et cet exécutable fonctionne sur n'importe quelle machine.",
+  "id": 131,
+  "theme": "Git",
+  "question": "Quelle commande annule les modifications non indexées d'un fichier ?",
   "options": [
-   "Vrai",
-   "Faux"
+   "git restore fichier",
+   "git log fichier",
+   "git add fichier",
+   "git commit fichier"
   ],
-  "reponse": "Faux"
+  "reponse": "git restore fichier"
  },
  {
-  "id": 47,
-  "theme": "Programmation",
-  "question": "Quel informaticien américain a créé le langage C ?",
+  "id": 132,
+  "theme": "Git",
+  "question": "Quelle commande retire un fichier de l'index sans perdre ses modifications ?",
   "options": [
-   "Tim Berners-Lee",
-   "Willis Ware",
-   "Dennis Ritchie",
-   "al-Khwârizmî"
+   "git rm -f fichier",
+   "git clean fichier",
+   "git reset --hard",
+   "git restore --staged fichier"
   ],
-  "reponse": "Dennis Ritchie"
+  "reponse": "git restore --staged fichier"
  },
  {
-  "id": 48,
-  "theme": "Programmation",
-  "question": "Laquelle de ces propositions n'est PAS une valeur du manifeste Agile ?",
+  "id": 133,
+  "theme": "Git",
+  "question": "Quel fichier liste les fichiers que Git doit ignorer ?",
   "options": [
-   "La collaboration avec le client",
-   "L'adaptation au changement",
-   "Les individus et leurs interactions",
-   "Une documentation exhaustive"
+   ".ignore",
+   ".gitignore",
+   ".gitkeep",
+   ".gitconfig"
   ],
-  "reponse": "Une documentation exhaustive"
+  "reponse": ".gitignore"
  },
  {
-  "id": 49,
-  "theme": "Programmation",
-  "question": "Quel était le langage le plus utilisé sur GitHub en 2015 ?",
+  "id": 134,
+  "theme": "Git",
+  "question": "Quelle commande définit le nom d'auteur pour tous les dépôts ?",
   "options": [
-   "PHP",
-   "JavaScript",
-   "C#",
-   "Python"
+   "git config --global user.name \"Nom\"",
+   "git config name \"Nom\"",
+   "git set name \"Nom\"",
+   "git user \"Nom\""
   ],
-  "reponse": "JavaScript"
+  "reponse": "git config --global user.name \"Nom\""
  },
  {
-  "id": 50,
-  "theme": "Programmation",
-  "question": "Le standard HTML5 a été publié en 2014.",
+  "id": 135,
+  "theme": "Git",
+  "question": "Quel nom Git donne-t-il par défaut au dépôt distant après un clone ?",
   "options": [
-   "Vrai",
-   "Faux"
+   "origin",
+   "upstream",
+   "master",
+   "remote"
   ],
-  "reponse": "Vrai"
+  "reponse": "origin"
  },
  {
-  "id": 51,
-  "theme": "Matériel",
-  "question": "Que signifie CPU ?",
+  "id": 136,
+  "theme": "Git",
+  "question": "Que désigne HEAD dans Git ?",
   "options": [
-   "Central Process Unit",
-   "Central Processor Unit",
-   "Computer Personal Unit",
-   "Central Processing Unit"
+   "Toujours la branche main",
+   "Le commit actuellement extrait",
+   "Le premier commit du dépôt",
+   "Le dépôt distant"
   ],
-  "reponse": "Central Processing Unit"
+  "reponse": "Le commit actuellement extrait"
  },
  {
-  "id": 52,
-  "theme": "Matériel",
-  "question": "Quel bus supplémentaire l'architecture Harvard a-t-elle ajouté aux microcontrôleurs ?",
+  "id": 137,
+  "theme": "Git",
+  "question": "Que fait git commit --amend ?",
   "options": [
-   "Contrôle",
-   "Données",
-   "Instructions",
-   "Adresses"
+   "Il pousse le dernier commit",
+   "Il modifie le dernier commit",
+   "Il crée une branche",
+   "Il supprime le dernier commit"
   ],
-  "reponse": "Instructions"
+  "reponse": "Il modifie le dernier commit"
  },
  {
-  "id": 53,
-  "theme": "Matériel",
-  "question": "Combien d'octets contient un kibioctet (Kio) ?",
+  "id": 138,
+  "theme": "Git",
+  "question": "Quelle commande crée un commit qui annule un commit existant, sans réécrire l'historique ?",
   "options": [
-   "1024",
-   "1000",
-   "2400",
-   "1240"
+   "git reset",
+   "git rollback",
+   "git undo",
+   "git revert"
   ],
-  "reponse": "1024"
+  "reponse": "git revert"
  },
  {
-  "id": 54,
-  "theme": "Matériel",
-  "question": "Dans sa version originale, la loi de Moore prévoyait que le nombre de transistors d'une puce doublerait tous les…",
+  "id": 139,
+  "theme": "Git",
+  "question": "Quelle commande affiche le contenu et les métadonnées d'un commit ?",
   "options": [
-   "quatre ans",
-   "deux ans",
-   "ans",
-   "huit ans"
+   "git status",
+   "git log -d",
+   "git diff --commit",
+   "git show"
   ],
-  "reponse": "ans"
+  "reponse": "git show"
  },
  {
-  "id": 55,
-  "theme": "Matériel",
-  "question": "Les ordinateurs monocartes Raspberry Pi ont été créés aux États-Unis.",
+  "id": 140,
+  "theme": "Git",
+  "question": "Quelle commande liste les dépôts distants configurés et leurs URL ?",
   "options": [
-   "Vrai",
-   "Faux"
+   "git status -r",
+   "git origin",
+   "git remote -v",
+   "git push --list"
   ],
-  "reponse": "Faux"
+  "reponse": "git remote -v"
  },
  {
-  "id": 56,
-  "theme": "Matériel",
-  "question": "Que signifie GPU ?",
+  "id": 141,
+  "theme": "Git",
+  "question": "Quelle commande supprime une branche locale déjà fusionnée ?",
   "options": [
-   "Graphical Proprietary Unit",
-   "Graphics Processing Unit",
-   "Gaming Processor Unit",
-   "Graphite Producing Unit"
+   "git remove nom",
+   "git delete nom",
+   "git merge -d nom",
+   "git branch -d nom"
   ],
-  "reponse": "Graphics Processing Unit"
+  "reponse": "git branch -d nom"
  },
  {
-  "id": 57,
-  "theme": "Matériel",
-  "question": "Combien de bits contient habituellement un octet ?",
+  "id": 142,
+  "theme": "Git",
+  "question": "Quand se produit un conflit de merge ?",
   "options": [
+   "Quand le dépôt distant est inaccessible",
+   "Quand un commit est vide",
+   "Quand une branche a été supprimée",
+   "Quand deux branches modifient différemment les mêmes lignes"
+  ],
+  "reponse": "Quand deux branches modifient différemment les mêmes lignes"
+ },
+ {
+  "id": 143,
+  "theme": "Git",
+  "question": "Quel marqueur signale le début d'une zone de conflit dans un fichier ?",
+  "options": [
+   "<<<<<<<",
+   "=======",
+   "///////",
+   "#######"
+  ],
+  "reponse": "<<<<<<<"
+ },
+ {
+  "id": 144,
+  "theme": "Git",
+  "question": "Quelle commande pose une étiquette de version sur un commit ?",
+  "options": [
+   "git label v1.0",
+   "git version v1.0",
+   "git mark v1.0",
+   "git tag v1.0"
+  ],
+  "reponse": "git tag v1.0"
+ },
+ {
+  "id": 145,
+  "theme": "Git",
+  "question": "Quelle commande met de côté les modifications en cours sans les commiter ?",
+  "options": [
+   "git park",
+   "git hold",
+   "git stash",
+   "git save"
+  ],
+  "reponse": "git stash"
+ },
+ {
+  "id": 146,
+  "theme": "Git",
+  "question": "Combien de caractères hexadécimaux compte un identifiant SHA-1 de commit complet ?",
+  "options": [
+   "32",
    "64",
-   "8",
-   "1",
-   "2"
+   "40",
+   "16"
   ],
-  "reponse": "8"
+  "reponse": "40"
  },
  {
-  "id": 58,
-  "theme": "Matériel",
-  "question": "Selon le Système international de grandeurs, comment appelle-t-on 1024 octets ?",
+  "id": 147,
+  "theme": "Git",
+  "question": "Quelle commande pousse une nouvelle branche et définit sa branche amont ?",
   "options": [
-   "Kylooctet",
-   "Kilooctet",
-   "Kibioctet",
-   "Kelooctet"
+   "git upstream nom",
+   "git push --new nom",
+   "git push -u origin nom",
+   "git branch --push nom"
   ],
-  "reponse": "Kibioctet"
+  "reponse": "git push -u origin nom"
  },
  {
-  "id": 59,
-  "theme": "Matériel",
-  "question": "RAM signifie Random Access Memory.",
+  "id": 148,
+  "theme": "Git",
+  "question": "Quelle commande ramène la branche à un commit en supprimant toutes les modifications locales ?",
   "options": [
-   "Vrai",
-   "Faux"
+   "git stash list",
+   "git revert",
+   "git restore --staged",
+   "git reset --hard"
   ],
-  "reponse": "Vrai"
+  "reponse": "git reset --hard"
  },
  {
-  "id": 60,
-  "theme": "Matériel",
-  "question": "Quel composant fournit l'interface permettant à tous les autres périphériques connectés de communiquer ?",
+  "id": 149,
+  "theme": "Git",
+  "question": "Que fait git reset --soft HEAD~1 ?",
   "options": [
-   "La mémoire vive",
-   "La carte mère",
-   "Le disque dur",
-   "Le processeur"
+   "Il supprime les modifications du dernier commit",
+   "Il crée une branche HEAD~1",
+   "Il pousse le dernier commit",
+   "Il annule le dernier commit en gardant ses modifications indexées"
   ],
-  "reponse": "La carte mère"
+  "reponse": "Il annule le dernier commit en gardant ses modifications indexées"
  },
  {
-  "id": 61,
-  "theme": "Matériel",
-  "question": "Comment s'appelle la pièce métallique placée entre le processeur et son ventilateur ?",
+  "id": 150,
+  "theme": "Git",
+  "question": "Quelle commande indique, pour chaque ligne d'un fichier, le dernier commit qui l'a modifiée ?",
   "options": [
-   "Le décipateur de température",
-   "La grille processeur",
-   "L'évent thermique",
-   "Le dissipateur thermique"
+   "git author",
+   "git log --lines",
+   "git blame",
+   "git who"
   ],
-  "reponse": "Le dissipateur thermique"
+  "reponse": "git blame"
  },
  {
-  "id": 62,
-  "theme": "Matériel",
-  "question": "La puce ARM a été développée à l'origine par Acorn Computers.",
+  "id": 151,
+  "theme": "Git",
+  "question": "Quelle commande supprime les fichiers non suivis du répertoire de travail ?",
   "options": [
-   "Vrai",
-   "Faux"
+   "git clean",
+   "git rm --cached",
+   "git stash pop",
+   "git reset"
   ],
-  "reponse": "Vrai"
+  "reponse": "git clean"
  },
  {
-  "id": 63,
-  "theme": "Matériel",
-  "question": "Que signifie LCD ?",
+  "id": 152,
+  "theme": "Git",
+  "question": "Comment appelle-t-on la zone où sont placés les fichiers avant un commit ?",
   "options": [
-   "Language Control Design",
-   "Last Common Difference",
-   "Liquid Crystal Display",
-   "Long Continuous Design"
+   "Le remote",
+   "Le reflog",
+   "Le stash",
+   "L'index (staging area)"
   ],
-  "reponse": "Liquid Crystal Display"
+  "reponse": "L'index (staging area)"
  },
  {
-  "id": 64,
-  "theme": "Matériel",
-  "question": "Combien de kilooctets contient un gigaoctet (en décimal) ?",
+  "id": 153,
+  "theme": "Git",
+  "question": "Que fait git rm --cached fichier ?",
   "options": [
-   "1024",
-   "1 000 000",
-   "1000",
-   "1 048 576"
+   "Il arrête le suivi du fichier sans le supprimer du disque",
+   "Il restaure le fichier",
+   "Il supprime le fichier du disque",
+   "Il ajoute le fichier au .gitignore"
   ],
-  "reponse": "1 000 000"
+  "reponse": "Il arrête le suivi du fichier sans le supprimer du disque"
  },
  {
-  "id": 65,
-  "theme": "Matériel",
-  "question": "Que signifie GHz ?",
+  "id": 154,
+  "theme": "Git",
+  "question": "Quelle commande liste toutes les branches, locales et distantes ?",
   "options": [
-   "Gigahertz",
-   "Gigahetz",
-   "Gigahatz",
-   "Gigahotz"
+   "git log --all",
+   "git status -a",
+   "git remote",
+   "git branch -a"
   ],
-  "reponse": "Gigahertz"
+  "reponse": "git branch -a"
  },
  {
-  "id": 66,
-  "theme": "Matériel",
-  "question": "Combien de valeurs différentes un octet peut-il représenter ?",
+  "id": 155,
+  "theme": "Git",
+  "question": "Quel type de système de gestion de versions est Git ?",
   "options": [
-   "1024",
-   "1",
-   "8",
-   "256"
+   "Centralisé",
+   "Propriétaire",
+   "Distribué",
+   "Client-serveur uniquement"
   ],
-  "reponse": "256"
- },
- {
-  "id": 67,
-  "theme": "Matériel",
-  "question": "Que signifie RAID ?",
-  "options": [
-   "Range of Applications with Identical Designs",
-   "Randomized Abstract Identification Description",
-   "Redundant Array of Independent Disks",
-   "Rapid Access for Indexed Devices"
-  ],
-  "reponse": "Redundant Array of Independent Disks"
- },
- {
-  "id": 68,
-  "theme": "Matériel",
-  "question": "Les premières barrettes de RAM étaient soudées sur la carte mère et ne pouvaient pas être retirées facilement.",
-  "options": [
-   "Vrai",
-   "Faux"
-  ],
-  "reponse": "Vrai"
- },
- {
-  "id": 69,
-  "theme": "Matériel",
-  "question": "Selon le Système international d'unités, combien d'octets contient un kilooctet ?",
-  "options": [
-   "512",
-   "500",
-   "1000",
-   "1024"
-  ],
-  "reponse": "1000"
- },
- {
-  "id": 70,
-  "theme": "Matériel",
-  "question": "Quel type de mémoire est utilisé pour la mémoire cache ?",
-  "options": [
-   "ROM",
-   "SRAM",
-   "Flash",
-   "DRAM"
-  ],
-  "reponse": "SRAM"
- },
- {
-  "id": 71,
-  "theme": "Matériel",
-  "question": "Le premier « bug » informatique recensé était un papillon de nuit trouvé dans un ordinateur Harvard Mark II.",
-  "options": [
-   "Vrai",
-   "Faux"
-  ],
-  "reponse": "Vrai"
- },
- {
-  "id": 72,
-  "theme": "Matériel",
-  "question": "Le premier IBM PC est sorti en 1981.",
-  "options": [
-   "Vrai",
-   "Faux"
-  ],
-  "reponse": "Vrai"
- },
- {
-  "id": 73,
-  "theme": "Réseaux et sécurité",
-  "question": "Sur quel port fonctionne HTTP ?",
-  "options": [
-   "53",
-   "443",
-   "23",
-   "80"
-  ],
-  "reponse": "80"
- },
- {
-  "id": 74,
-  "theme": "Réseaux et sécurité",
-  "question": "Comment s'appelle la couche 7 du modèle OSI ?",
-  "options": [
-   "Réseau",
-   "Application",
-   "Session",
-   "Présentation"
-  ],
-  "reponse": "Application"
- },
- {
-  "id": 75,
-  "theme": "Réseaux et sécurité",
-  "question": "Que signifie l'acronyme RIP en réseau ?",
-  "options": [
-   "Routing Information Protocol",
-   "Routine Inspection Protocol",
-   "Runtime Instance Processes",
-   "Regular Interval Processes"
-  ],
-  "reponse": "Routing Information Protocol"
- },
- {
-  "id": 76,
-  "theme": "Réseaux et sécurité",
-  "question": "Que signifie MIME en informatique ?",
-  "options": [
-   "Mail Internet Mail Exchange",
-   "Multipurpose Interleave Mail Exchange",
-   "Mail Interleave Method Exchange",
-   "Multipurpose Internet Mail Extensions"
-  ],
-  "reponse": "Multipurpose Internet Mail Extensions"
- },
- {
-  "id": 77,
-  "theme": "Réseaux et sécurité",
-  "question": "Quelle vulnérabilité était classée n°1 du Top 10 OWASP en 2013 ?",
-  "options": [
-   "Les références directes non sécurisées",
-   "L'injection",
-   "Le Cross-Site Scripting",
-   "L'authentification défaillante"
-  ],
-  "reponse": "L'injection"
- },
- {
-  "id": 78,
-  "theme": "Réseaux et sécurité",
-  "question": "Quelle topologie physique est utilisée par les réseaux Ethernet ?",
-  "options": [
-   "Hexagonale",
-   "Anneau",
-   "Maillée",
-   "Étoile"
-  ],
-  "reponse": "Étoile"
- },
- {
-  "id": 79,
-  "theme": "Réseaux et sécurité",
-  "question": "Que représente le « S » de l'algorithme de chiffrement RSA ?",
-  "options": [
-   "Shamir",
-   "Secure",
-   "Stable",
-   "Schottky"
-  ],
-  "reponse": "Shamir"
- },
- {
-  "id": 80,
-  "theme": "Réseaux et sécurité",
-  "question": "En réseau, que signifie OSPF ?",
-  "options": [
-   "Open Shortest Path First",
-   "Open Signal Path Finder",
-   "Order Sense Ping Find",
-   "Order State Part First"
-  ],
-  "reponse": "Open Shortest Path First"
- },
- {
-  "id": 81,
-  "theme": "Réseaux et sécurité",
-  "question": "DHCP signifie Dynamic Host Configuration Port.",
-  "options": [
-   "Vrai",
-   "Faux"
-  ],
-  "reponse": "Faux"
- },
- {
-  "id": 82,
-  "theme": "Réseaux et sécurité",
-  "question": "Que signifiait à l'origine le nom du réseau d'anonymisation Tor ?",
-  "options": [
-   "The Orange Router",
-   "The Onion Router",
-   "The Ominous Router",
-   "The Only Router"
-  ],
-  "reponse": "The Onion Router"
- },
- {
-  "id": 83,
-  "theme": "Réseaux et sécurité",
-  "question": "Dans l'hébergement, que signifie IaaS ?",
-  "options": [
-   "Internet and a Server",
-   "Infrastructure as a Service",
-   "Infrastructure as a Server",
-   "Internet as a Service"
-  ],
-  "reponse": "Infrastructure as a Service"
- },
- {
-  "id": 84,
-  "theme": "Réseaux et sécurité",
-  "question": "Pour quel type d'algorithme Ron Rivest n'est-il PAS connu ?",
-  "options": [
-   "Le chiffrement par flot",
-   "Le partage de secret",
-   "Le chiffrement asymétrique",
-   "Le hachage"
-  ],
-  "reponse": "Le partage de secret"
+  "reponse": "Distribué"
  }
 ]
