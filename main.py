@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 import sys
-import json
 import os
 
 from quiz import Quiz
+from user import User
+
+nom = input("Votre nom : ").strip()
+user = User(nom)
 
 
 def menu():
@@ -30,4 +33,6 @@ while game_running:
     if quiz.charger():
         quiz.jouer()
         quiz.resume()
-        input("\nAppuyez sur Entrée pour revenir au menu...")
+        user.ajouter_score(quiz.questions[0].theme, quiz.score)
+        user.afficher_resultats()
+        input("\nAppuyez sur Entru00e9e pour revenir au menu...")
