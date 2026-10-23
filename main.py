@@ -5,7 +5,9 @@ from quiz import Quiz
 from user import User
 from utils import afficher_entete
 
-nom = input("Votre nom : ").strip()
+nom = ""
+while not nom:
+    nom = input("Votre nom : ").strip()
 user = User(nom)
 
 

@@ -8,7 +8,7 @@ class Question:
     def __init__(self, id, theme, intitule, options, reponse):
         self.id = id
         self.theme = theme
-        self. intitule = intitule
+        self.intitule = intitule
         self.options = options
         self.reponse = reponse
 
@@ -82,7 +82,7 @@ class Quiz:
         total = len(self.bonnes) + len(self.mauvaises)
         print(f"\nScore : { self.score}% ({len(self.bonnes)}/{total})")
 
-        print(f"\nReponses correctes ({len(self.bonnes)}) :")
+        print(f"\nRéponses correctes ({len(self.bonnes)}) :")
         for q in self.bonnes:
             q.afficher_correction("✓")
 
