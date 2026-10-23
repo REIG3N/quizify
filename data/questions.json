@@ -1,602 +1,967 @@
 [
  {
   "id": 1,
-  "theme": "General Knowledge",
-  "question": "Which of the following blood component forms a plug at the site of injuries?",
+  "theme": "Python",
+  "question": "Python utilise l'indentation pour délimiter les blocs de code, au lieu d'accolades.",
   "options": [
-   "White blood cells",
-   "Red blood cells",
-   "Blood plasma",
-   "Platelets"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "Platelets"
+  "reponse": "Vrai"
  },
  {
   "id": 2,
-  "theme": "General Knowledge",
-  "question": "What company owns Outlook?",
+  "theme": "Python",
+  "question": "Laquelle de ces syntaxes crée un dictionnaire en Python ?",
   "options": [
-   "Yahoo",
-   "Apple",
-   "Microsoft",
-   "Google"
+   "(\"key\": \"value\")",
+   "{\"key\": \"value\"}",
+   "[\"key\": \"value\"]"
   ],
-  "reponse": "Microsoft"
+  "reponse": "{\"key\": \"value\"}"
  },
  {
   "id": 3,
-  "theme": "General Knowledge",
-  "question": "Which of the three astronauts of the Apollo 11 spaceflight did NOT walk on the moon?",
+  "theme": "Python",
+  "question": "Le nom de Python vient d'une émission de télévision.",
   "options": [
-   "Buzz Aldrin",
-   "None of them",
-   "Neil Armstrong",
-   "Michael Collins"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "Michael Collins"
+  "reponse": "Vrai"
  },
  {
   "id": 4,
-  "theme": "General Knowledge",
-  "question": "Who is the author of Jurassic Park?",
+  "theme": "Python",
+  "question": "Python a débuté comme un projet personnel.",
   "options": [
-   "Peter Benchley",
-   "Chuck Paluhniuk",
-   "Michael Crichton",
-   "Irvine Welsh"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "Michael Crichton"
+  "reponse": "Vrai"
  },
  {
   "id": 5,
-  "theme": "General Knowledge",
-  "question": "What is the name of the Jewish New Year?",
+  "theme": "Python",
+  "question": "En Python, quelle instruction affiche correctement la chaîne « Hello World » ?",
   "options": [
-   "Elul",
-   "New Year",
-   "Succoss",
-   "Rosh Hashanah"
+   "print(\"Hello World\")",
+   "console.log(\"Hello World\")",
+   "echo \"Hello World\"",
+   "printf(\"Hello World\")"
   ],
-  "reponse": "Rosh Hashanah"
+  "reponse": "print(\"Hello World\")"
  },
  {
   "id": 6,
-  "theme": "General Knowledge",
-  "question": "The Hyundai Motor Company was founded in which country?",
+  "theme": "Python",
+  "question": "Le langage Python est basé sur une version modifiée de JavaScript.",
   "options": [
-   "Russia",
-   "China",
-   "Japan",
-   "South Korea"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "South Korea"
+  "reponse": "Faux"
  },
  {
   "id": 7,
-  "theme": "General Knowledge",
-  "question": "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
+  "theme": "Linux",
+  "question": "Que fait la commande 'chmod 755 file.sh' ?",
   "options": [
-   "Fat Man",
-   "Noah's Ark",
-   "Spruce Goose",
-   "Trojan Horse"
+   "Rend le fichier accessible en lecture seule pour tous",
+   "Définit les permissions : propriétaire rwx, groupe r-x, autres r-x",
+   "Supprime définitivement le fichier",
+   "Change le propriétaire du fichier en utilisateur 755"
   ],
-  "reponse": "Spruce Goose"
+  "reponse": "Définit les permissions : propriétaire rwx, groupe r-x, autres r-x"
  },
  {
   "id": 8,
-  "theme": "General Knowledge",
-  "question": "What is the first book of the Old Testament?",
+  "theme": "Linux",
+  "question": "Que fait l'opérateur pipe (|) sous Linux ?",
   "options": [
-   "Exodus",
-   "Numbers",
-   "Genesis",
-   "Leviticus"
+   "Exécute deux commandes simultanément",
+   "Crée un lien symbolique entre deux commandes",
+   "Redirige la sortie vers un fichier",
+   "Transmet la sortie d'une commande comme entrée de la suivante"
   ],
-  "reponse": "Genesis"
+  "reponse": "Transmet la sortie d'une commande comme entrée de la suivante"
  },
  {
   "id": 9,
-  "theme": "General Knowledge",
-  "question": "In aerodynamics, which force pushes an object upwards?",
+  "theme": "Linux",
+  "question": "Quelle est la différence entre un lien physique (hard link) et un lien symbolique ?",
   "options": [
-   "Lift",
-   "Weight",
-   "Drag",
-   "Thrust"
+   "Les liens physiques servent aux fichiers, les liens symboliques uniquement aux répertoires",
+   "Le lien physique pointe vers l'inode ; le lien symbolique pointe vers le chemin et peut traverser les systèmes de fichiers",
+   "Les liens symboliques sont plus rapides, les liens physiques plus sécurisés",
+   "Ce sont les mêmes, avec des noms différents"
   ],
-  "reponse": "Lift"
+  "reponse": "Le lien physique pointe vers l'inode ; le lien symbolique pointe vers le chemin et peut traverser les systèmes de fichiers"
  },
  {
   "id": 10,
-  "theme": "General Knowledge",
-  "question": "What is the famous Papa John's last name?",
+  "theme": "Linux",
+  "question": "Quelle commande affiche les processus en cours d'exécution ?",
   "options": [
-   "Williams",
-   "ANDERSON",
-   "Schnatter",
-   "Chowder"
+   "run",
+   "proc",
+   "ps (avec des variantes comme ps aux pour tous les processus)",
+   "dir"
   ],
-  "reponse": "Schnatter"
+  "reponse": "ps (avec des variantes comme ps aux pour tous les processus)"
  },
  {
   "id": 11,
-  "theme": "General Knowledge",
-  "question": "Which of the following nations was NOT a belligerent in World War I?",
+  "theme": "Linux",
+  "question": "Sous Linux, tout est traité comme un fichier.",
   "options": [
-   "Greece",
-   "Portugal",
-   "Romania",
-   "Denmark"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "Denmark"
+  "reponse": "Vrai"
  },
  {
   "id": 12,
-  "theme": "General Knowledge",
-  "question": "In Half-Life, what is the name of the alien that attaches to heads?",
+  "theme": "Linux",
+  "question": "Que fait la commande 'grep' ?",
   "options": [
-   "Facehugger",
-   "Vortigaunt",
-   "Bullsquid",
-   "Headcrab"
+   "Regroupe les fichiers par type",
+   "Recherche des motifs de texte (expressions régulières) dans des fichiers ou une entrée",
+   "Compresse des fichiers avec l'algorithme GREP",
+   "Génère des rapports sur l'utilisation du système de fichiers"
   ],
-  "reponse": "Headcrab"
+  "reponse": "Recherche des motifs de texte (expressions régulières) dans des fichiers ou une entrée"
  },
  {
   "id": 13,
-  "theme": "General Knowledge",
-  "question": "What planet is not named after a Greek or Roman god?",
+  "theme": "Linux",
+  "question": "À quoi sert le répertoire /etc ?",
   "options": [
-   "Mercury",
-   "Jupiter",
-   "Earth",
-   "Mars"
+   "Il contient les répertoires personnels des utilisateurs",
+   "Il contient les binaires des applications installées",
+   "Il contient les fichiers de configuration du système",
+   "Il contient les fichiers temporaires"
   ],
-  "reponse": "Earth"
+  "reponse": "Il contient les fichiers de configuration du système"
  },
  {
   "id": 14,
-  "theme": "General Knowledge",
-  "question": "Which company did Valve cooperate with in the creation of the Vive?",
+  "theme": "Linux",
+  "question": "Que signifie 'sudo' et que fait cette commande ?",
   "options": [
-   "Google",
-   "Razer",
-   "Oculus",
-   "HTC"
+   "System Utility for Disk Operations",
+   "Switch User Directory Options",
+   "Secure User Data Output",
+   "Superuser Do : exécute une commande avec les privilèges root"
   ],
-  "reponse": "HTC"
+  "reponse": "Superuser Do : exécute une commande avec les privilèges root"
  },
  {
   "id": 15,
-  "theme": "General Knowledge",
-  "question": "Which of the following card games revolves around numbers and basic math?",
+  "theme": "Linux",
+  "question": "Linus Sebastian est le créateur du noyau Linux, utilisé ensuite par Linux, Android et Chrome OS.",
   "options": [
-   "Uno",
-   "Go Fish",
-   "Munchkin",
-   "Twister"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "Uno"
+  "reponse": "Faux"
  },
  {
   "id": 16,
-  "theme": "General Knowledge",
-  "question": "What is the largest organ of the human body?",
+  "theme": "Linux",
+  "question": "Linus Torvalds a créé Linux et Git.",
   "options": [
-   "Liver",
-   "Skin",
-   "large Intestine",
-   "Heart"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "Skin"
+  "reponse": "Vrai"
  },
  {
   "id": 17,
-  "theme": "General Knowledge",
-  "question": "The New York Times slogan is, “All the News That’s Fit to…”",
+  "theme": "Linux",
+  "question": "Le temps Unix correspond au nombre de secondes écoulées depuis quelle date ?",
   "options": [
-   "Digest",
-   "Read",
-   "Look",
-   "Print"
+   "Minuit, le 4 juillet 1976",
+   "Minuit, le 1er janvier 1970",
+   "Minuit, le jour de naissance du créateur d'Unix",
+   "Minuit, le 4 juillet 1980"
   ],
-  "reponse": "Print"
+  "reponse": "Minuit, le 1er janvier 1970"
  },
  {
   "id": 18,
-  "theme": "General Knowledge",
-  "question": "Which country developed the AK-47 assault rifle?",
+  "theme": "Linux",
+  "question": "Le temps des ordinateurs est mesuré selon le système « EPOX ».",
   "options": [
-   "Iran",
-   "Poland",
-   "Soviet Union",
-   "Israel"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "Soviet Union"
+  "reponse": "Faux"
  },
  {
   "id": 19,
-  "theme": "General Knowledge",
-  "question": "Five dollars is worth how many nickels?",
+  "theme": "Linux",
+  "question": "Quel est le nom de la faille de sécurité découverte dans Bash en 2014 ?",
   "options": [
-   "69",
-   "25",
-   "50",
-   "100"
+   "Shellshock",
+   "Stagefright",
+   "Bashbug",
+   "Heartbleed"
   ],
-  "reponse": "100"
+  "reponse": "Shellshock"
  },
  {
   "id": 20,
-  "theme": "General Knowledge",
-  "question": "What is the nickname of the US state of California?",
+  "theme": "Linux",
+  "question": "Dans le monde du logiciel, que signifie LTS ?",
   "options": [
-   "Golden State",
-   "Sunshine State",
-   "Bay State",
-   "Treasure State"
+   "Ludicrous Transfer Speed",
+   "Ludicrous Turbo Speed",
+   "Long Term Support",
+   "Long Taco Service"
   ],
-  "reponse": "Golden State"
+  "reponse": "Long Term Support"
  },
  {
   "id": 21,
-  "theme": "General Knowledge",
-  "question": "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
+  "theme": "Git",
+  "question": "Sur une branche contenant 5 commits, vous voulez réunir les 3 derniers en un seul avant le merge. Quelle commande ouvre un éditeur interactif permettant de les squasher ?",
   "options": [
-   "Cabbage Patch Kids",
-   "Care Bears",
-   "Rubik’s Cube",
-   "Transformers"
+   "git compress --last 3",
+   "git rebase -i HEAD~3",
+   "git commit --squash 3",
+   "git merge --squash HEAD~3"
   ],
-  "reponse": "Cabbage Patch Kids"
+  "reponse": "git rebase -i HEAD~3"
  },
  {
   "id": 22,
-  "theme": "General Knowledge",
-  "question": "Which of these Marvel games was released on the Playstation 2?",
+  "theme": "Git",
+  "question": "Un correctif critique a été commité sur la branche de release. Vous voulez appliquer uniquement ce commit à votre branche de développement, sans fusionner toute la release. Quelle commande utiliser ?",
   "options": [
-   "Spider-Man 2",
-   "Wolverine: Adamantium Rage",
-   "Howard the Duck",
-   "Silver Surfer"
+   "git merge --single",
+   "git apply",
+   "git cherry-pick",
+   "git rebase --onto dev release"
   ],
-  "reponse": "Spider-Man 2"
+  "reponse": "git cherry-pick"
  },
  {
   "id": 23,
-  "theme": "General Knowledge",
-  "question": "What is the Zodiac symbol for Gemini?",
+  "theme": "Git",
+  "question": "Après un git reset --hard accidentel, vos 3 derniers commits n'apparaissent plus dans git log. Quel outil enregistre tous les déplacements de HEAD et permet de retrouver leurs SHA ?",
   "options": [
-   "Fish",
-   "Maiden",
-   "Scales",
-   "Twins"
+   "git fsck --lost-found",
+   "git recover --hard",
+   "git log --all --reflog",
+   "git reflog"
   ],
-  "reponse": "Twins"
+  "reponse": "git reflog"
  },
  {
   "id": 24,
-  "theme": "General Knowledge",
-  "question": "What is the closest planet to our solar system's sun?",
+  "theme": "Git",
+  "question": "Une régression a été introduite dans l'un des 50 derniers commits. Quelle commande lance une recherche dichotomique dans l'historique pour trouver le commit fautif ?",
   "options": [
-   "Jupiter",
-   "Earth",
-   "Mercury",
-   "Mars"
+   "git log --bisect",
+   "git bisect start",
+   "git search --binary",
+   "git debug --find-regression"
   ],
-  "reponse": "Mercury"
+  "reponse": "git bisect start"
  },
  {
   "id": 25,
-  "theme": "General Knowledge",
-  "question": "Who is the youngest person to receive a Nobel Prize?",
+  "theme": "Git",
+  "question": "Après un git stash, quelle commande réapplique les modifications mises de côté ET les retire de la liste du stash ?",
   "options": [
-   "Werner Heisenberg",
-   "Malala Yousafzai",
-   "Lawrence Bragg",
-   "Yasser Arafat"
+   "git stash load --delete",
+   "git stash apply",
+   "git stash restore",
+   "git stash pop"
   ],
-  "reponse": "Malala Yousafzai"
+  "reponse": "git stash pop"
  },
  {
   "id": 26,
-  "theme": "General Knowledge",
-  "question": "What do sailors call the right side of a boat?",
+  "theme": "Git",
+  "question": "Quel hook Git s'exécute avant la validation d'un commit et peut le rejeter si le message ne respecte pas le format imposé ?",
   "options": [
-   "Port",
-   "Bow",
-   "Starboard",
-   "Stern"
+   "post-commit",
+   "prepare-commit-msg",
+   "commit-msg",
+   "pre-commit"
   ],
-  "reponse": "Starboard"
+  "reponse": "commit-msg"
  },
  {
   "id": 27,
-  "theme": "General Knowledge",
-  "question": "In which fast food chain can you order a Jamocha Shake?",
+  "theme": "Git",
+  "question": "Vous poussez une branche rebasée vers un dépôt partagé. Quelle option évite d'écraser les commits poussés entre-temps par d'autres ?",
   "options": [
-   "Wendy's",
-   "Burger King",
-   "McDonald's",
-   "Arby's"
+   "git push --force",
+   "git push --no-overwrite",
+   "git push --force-with-lease",
+   "git push --safe"
   ],
-  "reponse": "Arby's"
+  "reponse": "git push --force-with-lease"
  },
  {
   "id": 28,
-  "theme": "General Knowledge",
-  "question": "What country does sushi & karaoke come from?",
+  "theme": "Git",
+  "question": "Quelle fonctionnalité permet d'extraire une seconde branche dans un répertoire séparé, sans recloner le dépôt ?",
   "options": [
-   "China",
-   "Vietnam",
-   "Japan",
-   "South Korea"
+   "git checkout --separate",
+   "git branch --workspace",
+   "git clone --linked",
+   "git worktree add"
   ],
-  "reponse": "Japan"
+  "reponse": "git worktree add"
  },
  {
   "id": 29,
-  "theme": "General Knowledge",
-  "question": "What is Cynophobia the fear of?",
+  "theme": "Git",
+  "question": "Vous voulez inclure une bibliothèque externe, hébergée dans son propre dépôt, comme sous-répertoire de votre projet en gardant son historique indépendant. Quelle fonctionnalité utiliser ?",
   "options": [
-   "Germs",
-   "Birds",
-   "Dogs",
-   "Flying"
+   "git submodule add",
+   "git remote add",
+   "git subtree merge",
+   "git embed"
   ],
-  "reponse": "Dogs"
+  "reponse": "git submodule add"
  },
  {
   "id": 30,
-  "theme": "General Knowledge",
-  "question": "What do sailors call the back of a boat?",
+  "theme": "Git",
+  "question": "Lors d'un rebase interactif, quelle est la différence entre squash et fixup ?",
   "options": [
-   "Stern",
-   "Bow",
-   "Starboard",
-   "Port"
+   "Squash permet de modifier le message du commit combiné ; fixup abandonne le message du commit absorbé",
+   "Squash sert aux commits de merge ; fixup aux commits ordinaires",
+   "Squash conserve le commit comme entrée séparée dans le log ; fixup le supprime",
+   "Squash combine uniquement le code ; fixup fusionne aussi l'auteur et la date"
   ],
-  "reponse": "Stern"
+  "reponse": "Squash permet de modifier le message du commit combiné ; fixup abandonne le message du commit absorbé"
  },
  {
   "id": 31,
-  "theme": "General Knowledge",
-  "question": "What is the name of the company in Lethal Company?",
+  "theme": "Programmation",
+  "question": "Quel langage utilise Node.js ?",
   "options": [
-   "Lethal Robotics",
-   "The Company",
-   "Gordian Shipping Co.",
-   "Planet Scrap Co."
+   "Java",
+   "Joomla Source Code",
+   "JavaScript",
+   "Java Source"
   ],
-  "reponse": "The Company"
+  "reponse": "JavaScript"
  },
  {
   "id": 32,
-  "theme": "General Knowledge",
-  "question": "What word represents the letter 'T' in the NATO phonetic alphabet?",
+  "theme": "Programmation",
+  "question": "Une valeur booléenne « 0 » correspond à :",
   "options": [
-   "Tango",
-   "Turkey",
-   "Taxi",
-   "Target"
+   "Vrai (True)",
+   "Faux (False)"
   ],
-  "reponse": "Tango"
+  "reponse": "Faux (False)"
  },
  {
   "id": 33,
-  "theme": "General Knowledge",
-  "question": "Which country, not including Japan, has the most people of Japanese descent?",
+  "theme": "Programmation",
+  "question": "Quel langage de programmation porte le nom d'une île d'Indonésie ?",
   "options": [
-   "Brazil",
-   "China",
-   "South Korea",
-   "United States of America"
+   "C",
+   "Java",
+   "Python",
+   "Jakarta"
   ],
-  "reponse": "Brazil"
+  "reponse": "Java"
  },
  {
   "id": 34,
-  "theme": "General Knowledge",
-  "question": "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?",
+  "theme": "Programmation",
+  "question": "Lequel de ces noms n'est PAS un algorithme de tri ?",
   "options": [
-   "Alan Sugar",
-   "Bill Gates",
-   "Richard Branson",
-   "Donald Trump"
+   "Bubble Sort",
+   "Quick Sort",
+   "Merge Sort",
+   "Float Sort"
   ],
-  "reponse": "Richard Branson"
+  "reponse": "Float Sort"
  },
  {
   "id": 35,
-  "theme": "General Knowledge",
-  "question": "The file hosting service, \"Google Drive\" was launched on what day?",
+  "theme": "Programmation",
+  "question": "Quel langage sert de langage de script dans le moteur de jeu Unity 3D ?",
   "options": [
-   "January 12, 2014",
-   "November 14, 2008",
-   "April 24, 2012",
-   "January 20, 2010"
+   "Java",
+   "C++",
+   "Objective-C",
+   "C#"
   ],
-  "reponse": "April 24, 2012"
+  "reponse": "C#"
  },
  {
   "id": 36,
-  "theme": "General Knowledge",
-  "question": "Which canal connects the Mediterranean Sea with the Red Sea?",
+  "theme": "Programmation",
+  "question": "Lequel de ces langages est un langage de bas niveau ?",
   "options": [
-   "Panama Canal",
-   "Sinai Canal",
-   "Qaraqum Canal",
-   "Suez Canal"
+   "Pascal",
+   "Assembleur",
+   "C#",
+   "Python"
   ],
-  "reponse": "Suez Canal"
+  "reponse": "Assembleur"
  },
  {
   "id": 37,
-  "theme": "General Knowledge",
-  "question": "Why is the night sky dark?",
+  "theme": "Programmation",
+  "question": "L'acronyme « I18N » vient du terme « Interlocalization ».",
   "options": [
-   "Dust clouds absorb light",
-   "The universe is finite in age and size",
-   "Redshift doesn't let us see distant stars",
-   "Quantum mechanics"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "The universe is finite in age and size"
+  "reponse": "Faux"
  },
  {
   "id": 38,
-  "theme": "General Knowledge",
-  "question": "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
+  "theme": "Programmation",
+  "question": "En programmation, l'opérateur ternaire s'écrit le plus souvent avec quel(s) symbole(s) ?",
   "options": [
-   "Key",
-   "Pen",
-   "Sword",
-   "Cellphone"
+   "?:",
+   "if then",
+   "??",
+   "?"
   ],
-  "reponse": "Key"
+  "reponse": "?:"
  },
  {
   "id": 39,
-  "theme": "General Knowledge",
-  "question": "Which American president appears on a one dollar bill?",
+  "theme": "Programmation",
+  "question": "Dans la plupart des langages, l'opérateur ++ équivaut à l'instruction « += 1 ».",
   "options": [
-   "Thomas Jefferson",
-   "George Washington",
-   "Benjamin Franklin",
-   "Abraham Lincoln"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "George Washington"
+  "reponse": "Vrai"
  },
  {
   "id": 40,
-  "theme": "General Knowledge",
-  "question": "The American company \"Campbell's\" is most well known for making what food product?",
+  "theme": "Programmation",
+  "question": "En quelle année le langage C# est-il sorti ?",
   "options": [
-   "Sausages",
-   "Chocolate",
-   "Soft drinks",
-   "Canned soups"
+   "2001",
+   "2000",
+   "1999",
+   "1998"
   ],
-  "reponse": "Canned soups"
+  "reponse": "2000"
  },
  {
   "id": 41,
-  "theme": "General Knowledge",
-  "question": "Waluigi's first appearance was in what game?",
+  "theme": "Programmation",
+  "question": "Le langage Swift a été créé pour remplacer quel autre langage ?",
   "options": [
-   "Super Smash Bros. Ultimate",
-   "Wario Land: Super Mario Land 3",
-   "Mario Tennis 64 (N64)",
-   "Mario Party (N64)"
+   "C++",
+   "Objective-C",
+   "C#",
+   "Ruby"
   ],
-  "reponse": "Mario Tennis 64 (N64)"
+  "reponse": "Objective-C"
  },
  {
   "id": 42,
-  "theme": "General Knowledge",
-  "question": "Who was the 1st President of Mexico?",
+  "theme": "Programmation",
+  "question": "Dans quel langage ne pourrait-on taper que des 0 et des 1 ?",
   "options": [
-   "Miguel Hidalgo Y Costilla",
-   "Benito Juárez",
-   "Guadalupe Victoria",
-   "Vicente Guerrero"
+   "Python",
+   "C++",
+   "JavaScript",
+   "Binaire"
   ],
-  "reponse": "Guadalupe Victoria"
+  "reponse": "Binaire"
  },
  {
   "id": 43,
-  "theme": "General Knowledge",
-  "question": "Which one of these is not a typical European sword design?",
+  "theme": "Programmation",
+  "question": "Combien de bits composent la mantisse d'un nombre flottant simple précision ?",
   "options": [
-   "Flamberge",
-   "Falchion",
-   "Ulfberht",
-   "Scimitar"
+   "8",
+   "23",
+   "53",
+   "15"
   ],
-  "reponse": "Scimitar"
+  "reponse": "23"
  },
  {
   "id": 44,
-  "theme": "General Knowledge",
-  "question": "What does VR stand for?",
+  "theme": "Programmation",
+  "question": "En CSS, quelle valeur ne peut PAS être utilisée avec la propriété « position » ?",
   "options": [
-   "Voice Recognition",
-   "Virtual Reality",
-   "Visual Recognition",
-   "Very Real"
+   "relative",
+   "center",
+   "static",
+   "absolute"
   ],
-  "reponse": "Virtual Reality"
+  "reponse": "center"
  },
  {
   "id": 45,
-  "theme": "General Knowledge",
-  "question": "How many letters are in the English alphabet?",
+  "theme": "Programmation",
+  "question": "Les pointeurs n'existaient pas dans le C original : ils ont été ajoutés avec C++.",
   "options": [
-   "30",
-   "26",
-   "5",
-   "17"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "26"
+  "reponse": "Faux"
  },
  {
   "id": 46,
-  "theme": "General Knowledge",
-  "question": "In which year did Ghana gain independence?",
+  "theme": "Programmation",
+  "question": "Tout code doit être compilé en exécutable pour être lancé, et cet exécutable fonctionne sur n'importe quelle machine.",
   "options": [
-   "1960",
-   "1957",
-   "1958",
-   "1947"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "1957"
+  "reponse": "Faux"
  },
  {
   "id": 47,
-  "theme": "General Knowledge",
-  "question": "What is the most frequently used letter in the english alphabet?",
+  "theme": "Programmation",
+  "question": "Quel informaticien américain a créé le langage C ?",
   "options": [
-   "O",
-   "A",
-   "I",
-   "E"
+   "Tim Berners-Lee",
+   "Willis Ware",
+   "Dennis Ritchie",
+   "al-Khwârizmî"
   ],
-  "reponse": "E"
+  "reponse": "Dennis Ritchie"
  },
  {
   "id": 48,
-  "theme": "General Knowledge",
-  "question": "Gouda cheese is from which European country?",
+  "theme": "Programmation",
+  "question": "Laquelle de ces propositions n'est PAS une valeur du manifeste Agile ?",
   "options": [
-   "Belgium",
-   "Germany",
-   "The Netherlands",
-   "France"
+   "La collaboration avec le client",
+   "L'adaptation au changement",
+   "Les individus et leurs interactions",
+   "Une documentation exhaustive"
   ],
-  "reponse": "The Netherlands"
+  "reponse": "Une documentation exhaustive"
  },
  {
   "id": 49,
-  "theme": "General Knowledge",
-  "question": "Which restaurant's mascot is a clown?",
+  "theme": "Programmation",
+  "question": "Quel était le langage le plus utilisé sur GitHub en 2015 ?",
   "options": [
-   "Sonic",
-   "McDonald's",
-   "Whataburger",
-   "Burger King"
+   "PHP",
+   "JavaScript",
+   "C#",
+   "Python"
   ],
-  "reponse": "McDonald's"
+  "reponse": "JavaScript"
  },
  {
   "id": 50,
-  "theme": "General Knowledge",
-  "question": "What step in cellular respiration forms ATP?",
+  "theme": "Programmation",
+  "question": "Le standard HTML5 a été publié en 2014.",
   "options": [
-   "Glycolysis",
-   "Pyruvate Oxidation",
-   "Calvin Cycle",
-   "Oxidative Phosphorylation"
+   "Vrai",
+   "Faux"
   ],
-  "reponse": "Oxidative Phosphorylation"
+  "reponse": "Vrai"
+ },
+ {
+  "id": 51,
+  "theme": "Matériel",
+  "question": "Que signifie CPU ?",
+  "options": [
+   "Central Process Unit",
+   "Central Processor Unit",
+   "Computer Personal Unit",
+   "Central Processing Unit"
+  ],
+  "reponse": "Central Processing Unit"
+ },
+ {
+  "id": 52,
+  "theme": "Matériel",
+  "question": "Quel bus supplémentaire l'architecture Harvard a-t-elle ajouté aux microcontrôleurs ?",
+  "options": [
+   "Contrôle",
+   "Données",
+   "Instructions",
+   "Adresses"
+  ],
+  "reponse": "Instructions"
+ },
+ {
+  "id": 53,
+  "theme": "Matériel",
+  "question": "Combien d'octets contient un kibioctet (Kio) ?",
+  "options": [
+   "1024",
+   "1000",
+   "2400",
+   "1240"
+  ],
+  "reponse": "1024"
+ },
+ {
+  "id": 54,
+  "theme": "Matériel",
+  "question": "Dans sa version originale, la loi de Moore prévoyait que le nombre de transistors d'une puce doublerait tous les…",
+  "options": [
+   "quatre ans",
+   "deux ans",
+   "ans",
+   "huit ans"
+  ],
+  "reponse": "ans"
+ },
+ {
+  "id": 55,
+  "theme": "Matériel",
+  "question": "Les ordinateurs monocartes Raspberry Pi ont été créés aux États-Unis.",
+  "options": [
+   "Vrai",
+   "Faux"
+  ],
+  "reponse": "Faux"
+ },
+ {
+  "id": 56,
+  "theme": "Matériel",
+  "question": "Que signifie GPU ?",
+  "options": [
+   "Graphical Proprietary Unit",
+   "Graphics Processing Unit",
+   "Gaming Processor Unit",
+   "Graphite Producing Unit"
+  ],
+  "reponse": "Graphics Processing Unit"
+ },
+ {
+  "id": 57,
+  "theme": "Matériel",
+  "question": "Combien de bits contient habituellement un octet ?",
+  "options": [
+   "64",
+   "8",
+   "1",
+   "2"
+  ],
+  "reponse": "8"
+ },
+ {
+  "id": 58,
+  "theme": "Matériel",
+  "question": "Selon le Système international de grandeurs, comment appelle-t-on 1024 octets ?",
+  "options": [
+   "Kylooctet",
+   "Kilooctet",
+   "Kibioctet",
+   "Kelooctet"
+  ],
+  "reponse": "Kibioctet"
+ },
+ {
+  "id": 59,
+  "theme": "Matériel",
+  "question": "RAM signifie Random Access Memory.",
+  "options": [
+   "Vrai",
+   "Faux"
+  ],
+  "reponse": "Vrai"
+ },
+ {
+  "id": 60,
+  "theme": "Matériel",
+  "question": "Quel composant fournit l'interface permettant à tous les autres périphériques connectés de communiquer ?",
+  "options": [
+   "La mémoire vive",
+   "La carte mère",
+   "Le disque dur",
+   "Le processeur"
+  ],
+  "reponse": "La carte mère"
+ },
+ {
+  "id": 61,
+  "theme": "Matériel",
+  "question": "Comment s'appelle la pièce métallique placée entre le processeur et son ventilateur ?",
+  "options": [
+   "Le décipateur de température",
+   "La grille processeur",
+   "L'évent thermique",
+   "Le dissipateur thermique"
+  ],
+  "reponse": "Le dissipateur thermique"
+ },
+ {
+  "id": 62,
+  "theme": "Matériel",
+  "question": "La puce ARM a été développée à l'origine par Acorn Computers.",
+  "options": [
+   "Vrai",
+   "Faux"
+  ],
+  "reponse": "Vrai"
+ },
+ {
+  "id": 63,
+  "theme": "Matériel",
+  "question": "Que signifie LCD ?",
+  "options": [
+   "Language Control Design",
+   "Last Common Difference",
+   "Liquid Crystal Display",
+   "Long Continuous Design"
+  ],
+  "reponse": "Liquid Crystal Display"
+ },
+ {
+  "id": 64,
+  "theme": "Matériel",
+  "question": "Combien de kilooctets contient un gigaoctet (en décimal) ?",
+  "options": [
+   "1024",
+   "1 000 000",
+   "1000",
+   "1 048 576"
+  ],
+  "reponse": "1 000 000"
+ },
+ {
+  "id": 65,
+  "theme": "Matériel",
+  "question": "Que signifie GHz ?",
+  "options": [
+   "Gigahertz",
+   "Gigahetz",
+   "Gigahatz",
+   "Gigahotz"
+  ],
+  "reponse": "Gigahertz"
+ },
+ {
+  "id": 66,
+  "theme": "Matériel",
+  "question": "Combien de valeurs différentes un octet peut-il représenter ?",
+  "options": [
+   "1024",
+   "1",
+   "8",
+   "256"
+  ],
+  "reponse": "256"
+ },
+ {
+  "id": 67,
+  "theme": "Matériel",
+  "question": "Que signifie RAID ?",
+  "options": [
+   "Range of Applications with Identical Designs",
+   "Randomized Abstract Identification Description",
+   "Redundant Array of Independent Disks",
+   "Rapid Access for Indexed Devices"
+  ],
+  "reponse": "Redundant Array of Independent Disks"
+ },
+ {
+  "id": 68,
+  "theme": "Matériel",
+  "question": "Les premières barrettes de RAM étaient soudées sur la carte mère et ne pouvaient pas être retirées facilement.",
+  "options": [
+   "Vrai",
+   "Faux"
+  ],
+  "reponse": "Vrai"
+ },
+ {
+  "id": 69,
+  "theme": "Matériel",
+  "question": "Selon le Système international d'unités, combien d'octets contient un kilooctet ?",
+  "options": [
+   "512",
+   "500",
+   "1000",
+   "1024"
+  ],
+  "reponse": "1000"
+ },
+ {
+  "id": 70,
+  "theme": "Matériel",
+  "question": "Quel type de mémoire est utilisé pour la mémoire cache ?",
+  "options": [
+   "ROM",
+   "SRAM",
+   "Flash",
+   "DRAM"
+  ],
+  "reponse": "SRAM"
+ },
+ {
+  "id": 71,
+  "theme": "Matériel",
+  "question": "Le premier « bug » informatique recensé était un papillon de nuit trouvé dans un ordinateur Harvard Mark II.",
+  "options": [
+   "Vrai",
+   "Faux"
+  ],
+  "reponse": "Vrai"
+ },
+ {
+  "id": 72,
+  "theme": "Matériel",
+  "question": "Le premier IBM PC est sorti en 1981.",
+  "options": [
+   "Vrai",
+   "Faux"
+  ],
+  "reponse": "Vrai"
+ },
+ {
+  "id": 73,
+  "theme": "Réseaux et sécurité",
+  "question": "Sur quel port fonctionne HTTP ?",
+  "options": [
+   "53",
+   "443",
+   "23",
+   "80"
+  ],
+  "reponse": "80"
+ },
+ {
+  "id": 74,
+  "theme": "Réseaux et sécurité",
+  "question": "Comment s'appelle la couche 7 du modèle OSI ?",
+  "options": [
+   "Réseau",
+   "Application",
+   "Session",
+   "Présentation"
+  ],
+  "reponse": "Application"
+ },
+ {
+  "id": 75,
+  "theme": "Réseaux et sécurité",
+  "question": "Que signifie l'acronyme RIP en réseau ?",
+  "options": [
+   "Routing Information Protocol",
+   "Routine Inspection Protocol",
+   "Runtime Instance Processes",
+   "Regular Interval Processes"
+  ],
+  "reponse": "Routing Information Protocol"
+ },
+ {
+  "id": 76,
+  "theme": "Réseaux et sécurité",
+  "question": "Que signifie MIME en informatique ?",
+  "options": [
+   "Mail Internet Mail Exchange",
+   "Multipurpose Interleave Mail Exchange",
+   "Mail Interleave Method Exchange",
+   "Multipurpose Internet Mail Extensions"
+  ],
+  "reponse": "Multipurpose Internet Mail Extensions"
+ },
+ {
+  "id": 77,
+  "theme": "Réseaux et sécurité",
+  "question": "Quelle vulnérabilité était classée n°1 du Top 10 OWASP en 2013 ?",
+  "options": [
+   "Les références directes non sécurisées",
+   "L'injection",
+   "Le Cross-Site Scripting",
+   "L'authentification défaillante"
+  ],
+  "reponse": "L'injection"
+ },
+ {
+  "id": 78,
+  "theme": "Réseaux et sécurité",
+  "question": "Quelle topologie physique est utilisée par les réseaux Ethernet ?",
+  "options": [
+   "Hexagonale",
+   "Anneau",
+   "Maillée",
+   "Étoile"
+  ],
+  "reponse": "Étoile"
+ },
+ {
+  "id": 79,
+  "theme": "Réseaux et sécurité",
+  "question": "Que représente le « S » de l'algorithme de chiffrement RSA ?",
+  "options": [
+   "Shamir",
+   "Secure",
+   "Stable",
+   "Schottky"
+  ],
+  "reponse": "Shamir"
+ },
+ {
+  "id": 80,
+  "theme": "Réseaux et sécurité",
+  "question": "En réseau, que signifie OSPF ?",
+  "options": [
+   "Open Shortest Path First",
+   "Open Signal Path Finder",
+   "Order Sense Ping Find",
+   "Order State Part First"
+  ],
+  "reponse": "Open Shortest Path First"
+ },
+ {
+  "id": 81,
+  "theme": "Réseaux et sécurité",
+  "question": "DHCP signifie Dynamic Host Configuration Port.",
+  "options": [
+   "Vrai",
+   "Faux"
+  ],
+  "reponse": "Faux"
+ },
+ {
+  "id": 82,
+  "theme": "Réseaux et sécurité",
+  "question": "Que signifiait à l'origine le nom du réseau d'anonymisation Tor ?",
+  "options": [
+   "The Orange Router",
+   "The Onion Router",
+   "The Ominous Router",
+   "The Only Router"
+  ],
+  "reponse": "The Onion Router"
+ },
+ {
+  "id": 83,
+  "theme": "Réseaux et sécurité",
+  "question": "Dans l'hébergement, que signifie IaaS ?",
+  "options": [
+   "Internet and a Server",
+   "Infrastructure as a Service",
+   "Infrastructure as a Server",
+   "Internet as a Service"
+  ],
+  "reponse": "Infrastructure as a Service"
+ },
+ {
+  "id": 84,
+  "theme": "Réseaux et sécurité",
+  "question": "Pour quel type d'algorithme Ron Rivest n'est-il PAS connu ?",
+  "options": [
+   "Le chiffrement par flot",
+   "Le partage de secret",
+   "Le chiffrement asymétrique",
+   "Le hachage"
+  ],
+  "reponse": "Le partage de secret"
  }
 ]
