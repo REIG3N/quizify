@@ -22,6 +22,10 @@ class Question:
     def est_correcte(self, choix):
         return self.options[choix - 1] == self.reponse
 
+    def afficher_correction(self, symbole):
+        print(f"  {symbole} {self.intitule}")
+        print(f"    ❯ {self.reponse}")
+
 
 class Quiz:
     def __init__(self, chemin):
@@ -75,13 +79,16 @@ class Quiz:
         return round(len(self.bonnes) * 100 / total)
 
     def resume(self):
+        os.system("clear")
+        with open("data/title.txt", "r", encoding="utf-8") as f:
+            print(f.read())
         total = len(self.bonnes) + len(self.mauvaises)
         print(f"\nScore : { self.score}% ({len(self.bonnes)}/{total})")
 
         print(f"\nReponses correctes ({len(self.bonnes)}) :")
         for q in self.bonnes:
-            print(f" u2713 {q.intitule} -> {q.reponse}")
+            q.afficher_correction("✓")
 
-        print(f"\nRu00e9ponses incorrectes ({len(self.mauvaises)}) :")
+        print(f"\nRéponses incorrectes ({len(self.mauvaises)}) :")
         for q in self.mauvaises:
-            print(f"  u2717 {q.intitule} -> {q.reponse}")
+            q.afficher_correction("✗")
