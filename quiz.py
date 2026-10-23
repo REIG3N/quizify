@@ -39,7 +39,11 @@ class Quiz:
             print(f"Fichier introuvable : {self.chemin}")
             return False
         with open(self.chemin, "r", encoding='utf-8') as f:
-            data = json.load(f)
+            try:
+                data = json.load(f)
+            except json.JSONDecodeError:
+                print(f"Fichier JSON invalide : {self.chemin}")
+                return False
 
         self.questions = []
         for q in data:

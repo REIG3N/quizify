@@ -12,7 +12,11 @@ class User:
         if not os.path.isfile(self.chemin) or os.path.getsize(self.chemin) == 0:
             return {}
         with open(self.chemin, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            try:
+                return json.load(f)
+            except json.JSONDecodeError:
+                print(f"Fichier JSON invalide : {self.chemin}")
+                return {}
 
     def ecrire(self, data):
         with open(self.chemin, 'w', encoding="utf-8") as f:
@@ -38,8 +42,8 @@ class User:
 
     def afficher_resultats(self):
         if not self.scores:
-            print(f"Aucun résultat pour {self.nom}.")
+            print(f"Aucun ru00e9sultat pour {self.nom}.")
             return
-        print(f"\nRésultats de {self.nom}: ")
+        print(f"\nRu00e9sultats de {self.nom}: ")
         for s in self.scores:
             print(f" {s['date']} {s['theme']:<20} {s['score']}%")
