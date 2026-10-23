@@ -1,1 +1,602 @@
-[]
+[
+ {
+  "id": 1,
+  "theme": "General Knowledge",
+  "question": "Which of the following blood component forms a plug at the site of injuries?",
+  "options": [
+   "White blood cells",
+   "Red blood cells",
+   "Blood plasma",
+   "Platelets"
+  ],
+  "reponse": "Platelets"
+ },
+ {
+  "id": 2,
+  "theme": "General Knowledge",
+  "question": "What company owns Outlook?",
+  "options": [
+   "Yahoo",
+   "Apple",
+   "Microsoft",
+   "Google"
+  ],
+  "reponse": "Microsoft"
+ },
+ {
+  "id": 3,
+  "theme": "General Knowledge",
+  "question": "Which of the three astronauts of the Apollo 11 spaceflight did NOT walk on the moon?",
+  "options": [
+   "Buzz Aldrin",
+   "None of them",
+   "Neil Armstrong",
+   "Michael Collins"
+  ],
+  "reponse": "Michael Collins"
+ },
+ {
+  "id": 4,
+  "theme": "General Knowledge",
+  "question": "Who is the author of Jurassic Park?",
+  "options": [
+   "Peter Benchley",
+   "Chuck Paluhniuk",
+   "Michael Crichton",
+   "Irvine Welsh"
+  ],
+  "reponse": "Michael Crichton"
+ },
+ {
+  "id": 5,
+  "theme": "General Knowledge",
+  "question": "What is the name of the Jewish New Year?",
+  "options": [
+   "Elul",
+   "New Year",
+   "Succoss",
+   "Rosh Hashanah"
+  ],
+  "reponse": "Rosh Hashanah"
+ },
+ {
+  "id": 6,
+  "theme": "General Knowledge",
+  "question": "The Hyundai Motor Company was founded in which country?",
+  "options": [
+   "Russia",
+   "China",
+   "Japan",
+   "South Korea"
+  ],
+  "reponse": "South Korea"
+ },
+ {
+  "id": 7,
+  "theme": "General Knowledge",
+  "question": "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
+  "options": [
+   "Fat Man",
+   "Noah's Ark",
+   "Spruce Goose",
+   "Trojan Horse"
+  ],
+  "reponse": "Spruce Goose"
+ },
+ {
+  "id": 8,
+  "theme": "General Knowledge",
+  "question": "What is the first book of the Old Testament?",
+  "options": [
+   "Exodus",
+   "Numbers",
+   "Genesis",
+   "Leviticus"
+  ],
+  "reponse": "Genesis"
+ },
+ {
+  "id": 9,
+  "theme": "General Knowledge",
+  "question": "In aerodynamics, which force pushes an object upwards?",
+  "options": [
+   "Lift",
+   "Weight",
+   "Drag",
+   "Thrust"
+  ],
+  "reponse": "Lift"
+ },
+ {
+  "id": 10,
+  "theme": "General Knowledge",
+  "question": "What is the famous Papa John's last name?",
+  "options": [
+   "Williams",
+   "ANDERSON",
+   "Schnatter",
+   "Chowder"
+  ],
+  "reponse": "Schnatter"
+ },
+ {
+  "id": 11,
+  "theme": "General Knowledge",
+  "question": "Which of the following nations was NOT a belligerent in World War I?",
+  "options": [
+   "Greece",
+   "Portugal",
+   "Romania",
+   "Denmark"
+  ],
+  "reponse": "Denmark"
+ },
+ {
+  "id": 12,
+  "theme": "General Knowledge",
+  "question": "In Half-Life, what is the name of the alien that attaches to heads?",
+  "options": [
+   "Facehugger",
+   "Vortigaunt",
+   "Bullsquid",
+   "Headcrab"
+  ],
+  "reponse": "Headcrab"
+ },
+ {
+  "id": 13,
+  "theme": "General Knowledge",
+  "question": "What planet is not named after a Greek or Roman god?",
+  "options": [
+   "Mercury",
+   "Jupiter",
+   "Earth",
+   "Mars"
+  ],
+  "reponse": "Earth"
+ },
+ {
+  "id": 14,
+  "theme": "General Knowledge",
+  "question": "Which company did Valve cooperate with in the creation of the Vive?",
+  "options": [
+   "Google",
+   "Razer",
+   "Oculus",
+   "HTC"
+  ],
+  "reponse": "HTC"
+ },
+ {
+  "id": 15,
+  "theme": "General Knowledge",
+  "question": "Which of the following card games revolves around numbers and basic math?",
+  "options": [
+   "Uno",
+   "Go Fish",
+   "Munchkin",
+   "Twister"
+  ],
+  "reponse": "Uno"
+ },
+ {
+  "id": 16,
+  "theme": "General Knowledge",
+  "question": "What is the largest organ of the human body?",
+  "options": [
+   "Liver",
+   "Skin",
+   "large Intestine",
+   "Heart"
+  ],
+  "reponse": "Skin"
+ },
+ {
+  "id": 17,
+  "theme": "General Knowledge",
+  "question": "The New York Times slogan is, “All the News That’s Fit to…”",
+  "options": [
+   "Digest",
+   "Read",
+   "Look",
+   "Print"
+  ],
+  "reponse": "Print"
+ },
+ {
+  "id": 18,
+  "theme": "General Knowledge",
+  "question": "Which country developed the AK-47 assault rifle?",
+  "options": [
+   "Iran",
+   "Poland",
+   "Soviet Union",
+   "Israel"
+  ],
+  "reponse": "Soviet Union"
+ },
+ {
+  "id": 19,
+  "theme": "General Knowledge",
+  "question": "Five dollars is worth how many nickels?",
+  "options": [
+   "69",
+   "25",
+   "50",
+   "100"
+  ],
+  "reponse": "100"
+ },
+ {
+  "id": 20,
+  "theme": "General Knowledge",
+  "question": "What is the nickname of the US state of California?",
+  "options": [
+   "Golden State",
+   "Sunshine State",
+   "Bay State",
+   "Treasure State"
+  ],
+  "reponse": "Golden State"
+ },
+ {
+  "id": 21,
+  "theme": "General Knowledge",
+  "question": "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
+  "options": [
+   "Cabbage Patch Kids",
+   "Care Bears",
+   "Rubik’s Cube",
+   "Transformers"
+  ],
+  "reponse": "Cabbage Patch Kids"
+ },
+ {
+  "id": 22,
+  "theme": "General Knowledge",
+  "question": "Which of these Marvel games was released on the Playstation 2?",
+  "options": [
+   "Spider-Man 2",
+   "Wolverine: Adamantium Rage",
+   "Howard the Duck",
+   "Silver Surfer"
+  ],
+  "reponse": "Spider-Man 2"
+ },
+ {
+  "id": 23,
+  "theme": "General Knowledge",
+  "question": "What is the Zodiac symbol for Gemini?",
+  "options": [
+   "Fish",
+   "Maiden",
+   "Scales",
+   "Twins"
+  ],
+  "reponse": "Twins"
+ },
+ {
+  "id": 24,
+  "theme": "General Knowledge",
+  "question": "What is the closest planet to our solar system's sun?",
+  "options": [
+   "Jupiter",
+   "Earth",
+   "Mercury",
+   "Mars"
+  ],
+  "reponse": "Mercury"
+ },
+ {
+  "id": 25,
+  "theme": "General Knowledge",
+  "question": "Who is the youngest person to receive a Nobel Prize?",
+  "options": [
+   "Werner Heisenberg",
+   "Malala Yousafzai",
+   "Lawrence Bragg",
+   "Yasser Arafat"
+  ],
+  "reponse": "Malala Yousafzai"
+ },
+ {
+  "id": 26,
+  "theme": "General Knowledge",
+  "question": "What do sailors call the right side of a boat?",
+  "options": [
+   "Port",
+   "Bow",
+   "Starboard",
+   "Stern"
+  ],
+  "reponse": "Starboard"
+ },
+ {
+  "id": 27,
+  "theme": "General Knowledge",
+  "question": "In which fast food chain can you order a Jamocha Shake?",
+  "options": [
+   "Wendy's",
+   "Burger King",
+   "McDonald's",
+   "Arby's"
+  ],
+  "reponse": "Arby's"
+ },
+ {
+  "id": 28,
+  "theme": "General Knowledge",
+  "question": "What country does sushi & karaoke come from?",
+  "options": [
+   "China",
+   "Vietnam",
+   "Japan",
+   "South Korea"
+  ],
+  "reponse": "Japan"
+ },
+ {
+  "id": 29,
+  "theme": "General Knowledge",
+  "question": "What is Cynophobia the fear of?",
+  "options": [
+   "Germs",
+   "Birds",
+   "Dogs",
+   "Flying"
+  ],
+  "reponse": "Dogs"
+ },
+ {
+  "id": 30,
+  "theme": "General Knowledge",
+  "question": "What do sailors call the back of a boat?",
+  "options": [
+   "Stern",
+   "Bow",
+   "Starboard",
+   "Port"
+  ],
+  "reponse": "Stern"
+ },
+ {
+  "id": 31,
+  "theme": "General Knowledge",
+  "question": "What is the name of the company in Lethal Company?",
+  "options": [
+   "Lethal Robotics",
+   "The Company",
+   "Gordian Shipping Co.",
+   "Planet Scrap Co."
+  ],
+  "reponse": "The Company"
+ },
+ {
+  "id": 32,
+  "theme": "General Knowledge",
+  "question": "What word represents the letter 'T' in the NATO phonetic alphabet?",
+  "options": [
+   "Tango",
+   "Turkey",
+   "Taxi",
+   "Target"
+  ],
+  "reponse": "Tango"
+ },
+ {
+  "id": 33,
+  "theme": "General Knowledge",
+  "question": "Which country, not including Japan, has the most people of Japanese descent?",
+  "options": [
+   "Brazil",
+   "China",
+   "South Korea",
+   "United States of America"
+  ],
+  "reponse": "Brazil"
+ },
+ {
+  "id": 34,
+  "theme": "General Knowledge",
+  "question": "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?",
+  "options": [
+   "Alan Sugar",
+   "Bill Gates",
+   "Richard Branson",
+   "Donald Trump"
+  ],
+  "reponse": "Richard Branson"
+ },
+ {
+  "id": 35,
+  "theme": "General Knowledge",
+  "question": "The file hosting service, \"Google Drive\" was launched on what day?",
+  "options": [
+   "January 12, 2014",
+   "November 14, 2008",
+   "April 24, 2012",
+   "January 20, 2010"
+  ],
+  "reponse": "April 24, 2012"
+ },
+ {
+  "id": 36,
+  "theme": "General Knowledge",
+  "question": "Which canal connects the Mediterranean Sea with the Red Sea?",
+  "options": [
+   "Panama Canal",
+   "Sinai Canal",
+   "Qaraqum Canal",
+   "Suez Canal"
+  ],
+  "reponse": "Suez Canal"
+ },
+ {
+  "id": 37,
+  "theme": "General Knowledge",
+  "question": "Why is the night sky dark?",
+  "options": [
+   "Dust clouds absorb light",
+   "The universe is finite in age and size",
+   "Redshift doesn't let us see distant stars",
+   "Quantum mechanics"
+  ],
+  "reponse": "The universe is finite in age and size"
+ },
+ {
+  "id": 38,
+  "theme": "General Knowledge",
+  "question": "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
+  "options": [
+   "Key",
+   "Pen",
+   "Sword",
+   "Cellphone"
+  ],
+  "reponse": "Key"
+ },
+ {
+  "id": 39,
+  "theme": "General Knowledge",
+  "question": "Which American president appears on a one dollar bill?",
+  "options": [
+   "Thomas Jefferson",
+   "George Washington",
+   "Benjamin Franklin",
+   "Abraham Lincoln"
+  ],
+  "reponse": "George Washington"
+ },
+ {
+  "id": 40,
+  "theme": "General Knowledge",
+  "question": "The American company \"Campbell's\" is most well known for making what food product?",
+  "options": [
+   "Sausages",
+   "Chocolate",
+   "Soft drinks",
+   "Canned soups"
+  ],
+  "reponse": "Canned soups"
+ },
+ {
+  "id": 41,
+  "theme": "General Knowledge",
+  "question": "Waluigi's first appearance was in what game?",
+  "options": [
+   "Super Smash Bros. Ultimate",
+   "Wario Land: Super Mario Land 3",
+   "Mario Tennis 64 (N64)",
+   "Mario Party (N64)"
+  ],
+  "reponse": "Mario Tennis 64 (N64)"
+ },
+ {
+  "id": 42,
+  "theme": "General Knowledge",
+  "question": "Who was the 1st President of Mexico?",
+  "options": [
+   "Miguel Hidalgo Y Costilla",
+   "Benito Juárez",
+   "Guadalupe Victoria",
+   "Vicente Guerrero"
+  ],
+  "reponse": "Guadalupe Victoria"
+ },
+ {
+  "id": 43,
+  "theme": "General Knowledge",
+  "question": "Which one of these is not a typical European sword design?",
+  "options": [
+   "Flamberge",
+   "Falchion",
+   "Ulfberht",
+   "Scimitar"
+  ],
+  "reponse": "Scimitar"
+ },
+ {
+  "id": 44,
+  "theme": "General Knowledge",
+  "question": "What does VR stand for?",
+  "options": [
+   "Voice Recognition",
+   "Virtual Reality",
+   "Visual Recognition",
+   "Very Real"
+  ],
+  "reponse": "Virtual Reality"
+ },
+ {
+  "id": 45,
+  "theme": "General Knowledge",
+  "question": "How many letters are in the English alphabet?",
+  "options": [
+   "30",
+   "26",
+   "5",
+   "17"
+  ],
+  "reponse": "26"
+ },
+ {
+  "id": 46,
+  "theme": "General Knowledge",
+  "question": "In which year did Ghana gain independence?",
+  "options": [
+   "1960",
+   "1957",
+   "1958",
+   "1947"
+  ],
+  "reponse": "1957"
+ },
+ {
+  "id": 47,
+  "theme": "General Knowledge",
+  "question": "What is the most frequently used letter in the english alphabet?",
+  "options": [
+   "O",
+   "A",
+   "I",
+   "E"
+  ],
+  "reponse": "E"
+ },
+ {
+  "id": 48,
+  "theme": "General Knowledge",
+  "question": "Gouda cheese is from which European country?",
+  "options": [
+   "Belgium",
+   "Germany",
+   "The Netherlands",
+   "France"
+  ],
+  "reponse": "The Netherlands"
+ },
+ {
+  "id": 49,
+  "theme": "General Knowledge",
+  "question": "Which restaurant's mascot is a clown?",
+  "options": [
+   "Sonic",
+   "McDonald's",
+   "Whataburger",
+   "Burger King"
+  ],
+  "reponse": "McDonald's"
+ },
+ {
+  "id": 50,
+  "theme": "General Knowledge",
+  "question": "What step in cellular respiration forms ATP?",
+  "options": [
+   "Glycolysis",
+   "Pyruvate Oxidation",
+   "Calvin Cycle",
+   "Oxidative Phosphorylation"
+  ],
+  "reponse": "Oxidative Phosphorylation"
+ }
+]
