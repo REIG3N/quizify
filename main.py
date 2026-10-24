@@ -14,15 +14,15 @@ user = User(nom)
 
 def choisir_theme(themes):
     """
-        choix du thu00e8mes du quiz parmi la liste
+        choix du thèmes du quiz parmi la liste
     """
 #   la boucle de choix est lancer tant que la saisie est invalide
     while True:
         # affichage de l'entete via utils,
         # nettoyr l'affichage
         afficher_entete()
-        print("Choisissez un thu00e8me :")
-        # boucle pour afficher tout les thu00e8mes
+        print("Choisissez un thème :")
+        # boucle pour afficher tout les thèmes
         # permet d'en ajouter a l'avenir
         for i, theme in enumerate(themes, 1):
             print(f"{i}) {theme}")
@@ -33,21 +33,21 @@ def choisir_theme(themes):
 
 def jouer():
     """
-    Fonction jouer: active le quiz selon le thu00e8me choisi
+    Fonction jouer: active le quiz selon le thème choisi
     """
-    # initialiasation et lien de la classe quiz et les donnu00e9es.
+    # initialiasation et lien de la classe quiz et les données.
     quiz = Quiz("data/questions.json")
     # si ca charge pas on reste dans le menu
     if not quiz.charger():
         return
     # choix du theme
     theme = choisir_theme(quiz.themes())
-    # selectionne uniquement les questions du thu00e8me
+    # selectionne uniquement les questions du thème
     quiz.filtrer(theme)
     quiz.jouer()
     # tableau de fin de partie
     quiz.resume()
-    # on enregistre le score et le thu00e8me dans le profil du user
+    # on enregistre le score et le thème dans le profil du user
     user.ajouter_score(theme, quiz.score)
 
 
@@ -75,7 +75,7 @@ def menu():
             input(
                 "Veuillez entrer un input valide, (Appuyer n'importe ou pour ressayer)")
             continue
-        # input de retour vers le menu apru00e8s un quiz ou resultat.
+        # input de retour vers le menu après un quiz ou resultat.
         input("\nAppuyez sur Entree pour revenir au menu...")
 
 
