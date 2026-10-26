@@ -4,9 +4,14 @@ Application de quiz en ligne de commande, écrite en Python.
 Chaque utilisateur choisit un thème, répond aux questions et
 retrouve l'historique de ses scores.
 
-![Menu](docs/menu.png)
-![Partie en cours](docs/partie.png)
-![Fin de quiz](docs/fin.png)
+<img src="docs/menu.png" width="60%" alt="Menu">
+
+<details>
+<summary>Plus de captures</summary>
+
+<img src="docs/question.png" width="60%" alt="Question">
+<img src="docs/results.png" width="60%" alt="Résultats">
+</details>
 
 ## Requirements
 
